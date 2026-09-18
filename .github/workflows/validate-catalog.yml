@@ -1,0 +1,108 @@
+name: Validate Xenon Module Catalog
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate registry
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install validator
+        run: python -m pip install --upgrade check-jsonschema
+
+      - name: Validate catalog schema
+        run: |
+          check-jsonschema \
+            --schemafile schema/catalog.schema.json \
+            catalog.json
+
+      - name: Validate module entries
+        run: |
+          check-jsonschema \
+            --schemafile schema/module-entry.schema.json \
+            modules/*.json
+
+      - name: Validate catalog references
+        run: |
+          python <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path(".")
+
+          with (root / "catalog.json").open("r", encoding="utf-8") as handle:
+              catalog = json.load(handle)
+
+          seen_paths = set()
+          seen_ids = set()
+
+          for module_path_text in catalog["modules"]:
+              if module_path_text in seen_paths:
+                  raise SystemExit(
+                      f"Duplicate module path in catalog: {module_path_text}"
+                  )
+
+              seen_paths.add(module_path_text)
+
+              module_path = root / module_path_text
+
+              if not module_path.is_file():
+                  raise SystemExit(
+                      f"Catalog references missing module: {module_path_text}"
+                  )
+
+              with module_path.open("r", encoding="utf-8") as handle:
+                  module = json.load(handle)
+
+              module_id = module["id"]
+
+              if module_id in seen_ids:
+                  raise SystemExit(
+                      f"Duplicate module ID: {module_id}"
+                  )
+
+              seen_ids.add(module_id)
+
+          registry_entries = {
+              path.as_posix()
+              for path in (root / "modules").glob("*.json")
+          }
+
+          missing_from_catalog = registry_entries - seen_paths
+
+          if missing_from_catalog:
+              raise SystemExit(
+                  "Module entries not listed in catalog.json: "
+                  + ", ".join(sorted(missing_from_catalog))
+              )
+
+          print(f"Validated {len(seen_ids)} Xenon module registry entries.")
+          PY
+
+      - name: Validate JSON syntax
+        run: |
+          python -m json.tool catalog.json > /dev/null
+
+          for file in modules/*.json schema/*.json; do
+            echo "Checking $file"
+            python -m json.tool "$file" > /dev/null
+          done

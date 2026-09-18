@@ -5,23 +5,19 @@
   "description": "Schema for the Xenon public module registry catalog.",
   "type": "object",
   "additionalProperties": false,
-
   "required": [
     "schema",
     "version",
     "modules"
   ],
-
   "properties": {
     "schema": {
       "const": "xenon.module-catalog"
     },
-
     "version": {
       "type": "integer",
       "minimum": 1
     },
-
     "modules": {
       "type": "array",
       "uniqueItems": true,
