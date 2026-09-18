@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/nimauria/Xenon-Modules/schema/module-entry.schema.json",
   "title": "Xenon Module Registry Entry",
-  "description": "Schema for a module listed in the Xenon public module registry.",
+  "description": "Schema for a module listed in the Xenon public module registry. Registry data may include launcher presentation metadata and a content catalogue, but must not contain commercial game payloads.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -13,9 +13,15 @@
     "type",
     "description",
     "publisher",
+    "license",
     "repository",
     "releaseAssets",
-    "tags"
+    "tags",
+    "launcher",
+    "game",
+    "content",
+    "capabilities",
+    "dlc"
   ],
   "properties": {
     "schema": {
@@ -28,6 +34,7 @@
     "id": {
       "type": "string",
       "minLength": 3,
+      "maxLength": 128,
       "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)+$"
     },
     "name": {
@@ -44,7 +51,7 @@
     "description": {
       "type": "string",
       "minLength": 1,
-      "maxLength": 500
+      "maxLength": 1000
     },
     "publisher": {
       "type": "object",
@@ -59,10 +66,20 @@
           "minLength": 1,
           "maxLength": 100
         },
+        "github": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
         "verified": {
           "type": "boolean"
         }
       }
+    },
+    "license": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
     },
     "repository": {
       "type": "object",
@@ -86,6 +103,10 @@
         "name": {
           "type": "string",
           "minLength": 1
+        },
+        "defaultBranch": {
+          "type": "string",
+          "minLength": 1
         }
       }
     },
@@ -107,6 +128,361 @@
         "type": "string",
         "minLength": 1,
         "maxLength": 50
+      }
+    },
+    "launcher": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "gameTitle",
+        "moduleName",
+        "tileArt",
+        "heroArt",
+        "description",
+        "renderer",
+        "mode",
+        "regions",
+        "showDlcCatalog",
+        "compatibility"
+      ],
+      "properties": {
+        "gameTitle": {
+          "type": "string",
+          "minLength": 1
+        },
+        "moduleName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tileArt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "heroArt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "renderer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mode": {
+          "type": "string",
+          "minLength": 1
+        },
+        "regions": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "contentStateLabel": {
+          "type": "string"
+        },
+        "showDlcCatalog": {
+          "type": "boolean"
+        },
+        "compatibility": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "label",
+            "summary"
+          ],
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "development",
+                "boots",
+                "menu",
+                "ingame",
+                "playable",
+                "complete",
+                "unsupported"
+              ]
+            },
+            "label": {
+              "type": "string",
+              "minLength": 1
+            },
+            "summary": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    },
+    "game": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "titleId",
+        "developer",
+        "publisher",
+        "platform",
+        "releaseYear",
+        "genres",
+        "supportedRegions"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "titleId": {
+          "type": "string",
+          "pattern": "^[0-9A-Fa-f]{8}$"
+        },
+        "developer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "platform": {
+          "type": "string",
+          "const": "Xbox 360"
+        },
+        "releaseYear": {
+          "type": "integer",
+          "minimum": 2005,
+          "maximum": 2100
+        },
+        "genres": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "supportedRegions": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "identities"
+      ],
+      "properties": {
+        "identities": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "titleId"
+            ],
+            "properties": {
+              "titleId": {
+                "type": "string",
+                "pattern": "^[0-9A-Fa-f]{8}$"
+              },
+              "mediaIds": {
+                "type": "array",
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "pattern": "^[0-9A-Fa-f]{8}$"
+                }
+              },
+              "version": {
+                "type": "string"
+              },
+              "discNumber": {
+                "type": "integer",
+                "minimum": 1
+              }
+            }
+          }
+        },
+        "identityPolicy": {
+          "type": "string"
+        }
+      }
+    },
+    "capabilities": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      }
+    },
+    "dlc": {
+      "type": "array",
+      "uniqueItems": false,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "category",
+          "description",
+          "optional",
+          "contentIds",
+          "identityStatus",
+          "historical"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128,
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 150
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "mission",
+              "multiplayer",
+              "aircraft-skin",
+              "aircraft-set",
+              "other"
+            ]
+          },
+          "group": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000
+          },
+          "version": {
+            "type": "string"
+          },
+          "optional": {
+            "type": "boolean"
+          },
+          "contentIds": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]{40}$"
+            }
+          },
+          "identityStatus": {
+            "type": "string",
+            "enum": [
+              "verified",
+              "pending-stfs-header-verification"
+            ]
+          },
+          "historical": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "marketplaceStatus"
+            ],
+            "properties": {
+              "marketplaceStatus": {
+                "type": "string",
+                "enum": [
+                  "released",
+                  "preorder",
+                  "delisted"
+                ]
+              },
+              "priceMsp": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "laterFree": {
+                "type": "boolean"
+              },
+              "removedBeforeFinalDelisting": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      }
+    },
+    "historicalUnreleased": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "category",
+          "status",
+          "installable"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "cancelled"
+            ]
+          },
+          "installable": {
+            "const": false
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "url"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
       }
     }
   }
