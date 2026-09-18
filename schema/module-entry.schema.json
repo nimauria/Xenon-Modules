@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/nimauria/Xenon-Modules/schema/module-entry.schema.json",
+  "title": "Xenon Module Registry Entry",
+  "description": "Schema for a module listed in the Xenon public module registry.",
+  "type": "object",
+  "additionalProperties": false,
+
+  "required": [
+    "schema",
+    "version",
+    "id",
+    "name",
+    "type",
+    "description",
+    "publisher",
+    "repository",
+    "releaseAssets",
+    "tags"
+  ],
+
+  "properties": {
+    "schema": {
+      "const": "xenon.module-entry"
+    },
+
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+
+    "id": {
+      "type": "string",
+      "minLength": 3,
+      "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)+$"
+    },
+
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+
+    "type": {
+      "type": "string",
+      "enum": [
+        "game"
+      ]
+    },
+
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 500
+    },
+
+    "publisher": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "name",
+        "verified"
+      ],
+
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+
+        "verified": {
+          "type": "boolean"
+        }
+      }
+    },
+
+    "repository": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "provider",
+        "owner",
+        "name"
+      ],
+
+      "properties": {
+        "provider": {
+          "type": "string",
+          "enum": [
+            "github"
+          ]
+        },
+
+        "owner": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "name": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+
+    "releaseAssets": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      },
+
+      "propertyNames": {
+        "pattern": "^[a-z0-9]+-[a-z0-9_]+$"
+      }
+    },
+
+    "tags": {
+      "type": "array",
+      "uniqueItems": true,
+
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 50
+      }
+    }
+  }
+}

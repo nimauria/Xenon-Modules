@@ -1,0 +1,31 @@
+{
+  "schema": "xenon.module-entry",
+  "version": 1,
+
+  "id": "org.nimauria.project-gracemeria",
+  "name": "Project Gracemeria",
+  "type": "game",
+
+  "description": "Xenon module for Ace Combat 6: Fires of Liberation.",
+
+  "publisher": {
+    "name": "Nimauria",
+    "verified": true
+  },
+
+  "repository": {
+    "provider": "github",
+    "owner": "nimauria",
+    "name": "Project-Gracemeria"
+  },
+
+  "releaseAssets": {
+    "windows-x64": "project-gracemeria-windows-x64.xenonmod.zip"
+  },
+
+  "tags": [
+    "game",
+    "ace-combat",
+    "flight"
+  ]
+}
