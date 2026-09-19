@@ -31,8 +31,8 @@
   "launcher": {
     "gameTitle": "Ace Combat 6: Fires of Liberation",
     "moduleName": "Project Gracemeria",
-    "tileArt": "assets/org.nimauria.project-gracemeria/game-art.svg",
-    "heroArt": "assets/org.nimauria.project-gracemeria/background.svg",
+    "tileArt": "assets/org.nimauria.project-gracemeria/game-art.webp",
+    "heroArt": "assets/org.nimauria.project-gracemeria/background.webp",
     "description": "Take to the skies of Strangereal in Ace Combat 6: Fires of Liberation through Project Gracemeria and the Xenon native recompilation runtime.",
     "renderer": "Automatic",
     "mode": "Offline",
