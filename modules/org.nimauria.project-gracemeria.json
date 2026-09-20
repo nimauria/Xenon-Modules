@@ -4,7 +4,7 @@
   "id": "org.nimauria.project-gracemeria",
   "name": "Project Gracemeria",
   "type": "game",
-  "description": "Xenon game module for Ace Combat 6: Fires of Liberation. The module provides title-specific recompilation metadata, compatibility rules and content definitions while Xenon supplies the shared runtime.",
+  "description": "Xenon game module for Ace Combat 6: Fires of Liberation. The module provides revision-scoped AC6 recompilation metadata and compatibility data while Xenon supplies the shared Xbox 360 runtime.",
   "publisher": {
     "name": "Nimauria",
     "github": "nimauria",
@@ -37,15 +37,14 @@
     "renderer": "Automatic",
     "mode": "Offline",
     "regions": [
-      "NTSC-U",
-      "PAL"
+      "NTSC-U"
     ],
     "contentStateLabel": "User-provided Xbox 360 content required",
     "showDlcCatalog": true,
     "compatibility": {
       "status": "development",
-      "label": "In development",
-      "summary": "Real-title integration is under active development and is not yet considered playable."
+      "label": "Source migration complete",
+      "summary": "The Xenon module/source migration is complete for the US retail TU0 profile. Real Ace Combat 6 boot validation, effective title-update profiles and PAL fixed-address profiles require legally supplied game content."
     }
   },
   "game": {
@@ -60,24 +59,28 @@
       "action"
     ],
     "supportedRegions": [
-      "NTSC-U",
-      "PAL"
+      "NTSC-U"
     ]
   },
   "content": {
     "identities": [
       {
-        "titleId": "4E4D07D1"
+        "titleId": "4E4D07D1",
+        "mediaIds": [
+          "531C30BE"
+        ],
+        "discNumber": 1
       }
     ],
-    "identityPolicy": "Title ID is the current strict match. Media ID and XEX version refinements must only be added after each supported regional/revision build is verified."
+    "identityPolicy": "Fixed-address analysis metadata is enabled only for the US retail base/TU0 profile identified by Media ID 531C30BE. PAL and effective title-update revisions require their own verified module profiles before addresses are enabled."
   },
   "capabilities": [
     "game-identification",
     "dlc-catalog",
     "save-data",
     "offline-launch",
-    "module-settings"
+    "module-settings",
+    "native-recompilation"
   ],
   "dlc": [
     {
