@@ -1,69 +1,43 @@
-# Xenon Module Registry Format
+# Repository module format
 
-The Xenon Modules repository provides discovery metadata for modules supported by Xenon Launcher.
+catalog.json uses xenon.module-catalog version 2. Its modules array lists
+games/<contributor>/<game>/entry.json paths (at most 256). Paths and stable IDs
+must be unique; every game folder has one entry.
 
-The registry is deliberately separate from the runtime module manifest.
+entry.json uses xenon.module-entry version 2. It declares identity, publisher,
+licence, tags, presentation, platforms and sourcePath. The repository is always
+nimauria/Xenon-Modules. Runtime details belong in xenon-module.json alongside it.
 
-## Catalog
-
-`catalog.json` is the entry point used by Xenon Launcher.
-
-Current schema:
-
-~~~text
-xenon.module-catalog
-~~~
-
-Current version:
-
-~~~text
-1
-~~~
-
-The `modules` array contains repository-relative paths to individual registry entries.
-
-Example:
+package-files.json declares {"include":["xenon-module.json","LICENSE",...]}.
+The sync script expands those paths into package.json:
 
 ~~~json
 {
-  "schema": "xenon.module-catalog",
+  "schema": "xenon.repository-package",
   "version": 1,
-  "modules": [
-    "modules/org.nimauria.project-gracemeria.json"
-  ]
+  "moduleId": "org.contributor.game",
+  "moduleVersion": "0.1.0",
+  "files": [{"path":"xenon-module.json","size":123,"sha256":"64 lowercase hex digits"}]
 }
 ~~~
 
-## Module entries
+The index contains sorted unique module-relative paths, exact sizes, and hashes.
+The runtime manifest is required. Limits: 20,000 files, 128 MiB total, 240-byte
+paths. ASCII letters, digits, dots, underscores and hyphens are allowed in path
+components; parent traversal and symlinks are forbidden. CI regenerates indexes
+in memory and rejects mismatches.
 
-Each module has a separate JSON file under `modules/`.
+The launcher reads https://raw.githubusercontent.com/nimauria/Xenon-Modules/main/
+and appends sourcePath and each indexed path. Content identity is SHA-256 of
+concatenated records: path + LF + decimal size + LF + lowercase hash + LF,
+in index order. This identity is retained with the installed module and its
+rollback history. Equal versions do not hide source edits.
 
-Registry entries contain only information required for discovery and distribution, including:
+Missing or changed files abort download and preserve the installation. Refresh,
+check and retry after the repository settles. Launcher self-updates continue
+using Xenon-Recomp releases. Module installation does not use GitHub Releases.
 
-- module ID
-- display name
-- description
-- publisher
-- source repository
-- supported release assets
-- tags
-
-Runtime-specific information belongs to the installed module manifest rather than the public registry.
-
-This includes:
-
-- supported Xbox title IDs
-- executable hashes
-- game versions
-- runtime capabilities
-- DLC definitions
-- launch configuration
-- generated code
-- hooks and patches
-- module-specific settings
-
-## Stability
-
-The registry format is currently under development.
-
-Schema version `1` should be treated as an initial contract and may evolve while the Xenon module architecture is being completed.
+Updated launchers accept version-1 discovery entries during migration and map
+their repository owner/name to lowercase games/<owner>/<name> paths. Old
+launchers cannot read version 2: ship the new launcher before changing the public
+catalogue. Existing module IDs are retained.

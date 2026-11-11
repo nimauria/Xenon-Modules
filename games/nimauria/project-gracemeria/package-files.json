@@ -1,0 +1,8 @@
+{
+  "include": [
+    "xenon-module.json",
+    "LICENSE",
+    "assets",
+    "xenon-analysis"
+  ]
+}

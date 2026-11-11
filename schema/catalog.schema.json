@@ -15,16 +15,16 @@
       "const": "xenon.module-catalog"
     },
     "version": {
-      "type": "integer",
-      "minimum": 1
+      "const": 2
     },
     "modules": {
       "type": "array",
       "uniqueItems": true,
       "items": {
         "type": "string",
-        "pattern": "^modules/[A-Za-z0-9._-]+\\.json$"
-      }
+        "pattern": "^games/[a-z0-9][a-z0-9-]*/[a-z0-9][a-z0-9._-]*/entry\\.json$"
+      },
+      "maxItems": 256
     }
   }
 }

@@ -15,21 +15,21 @@
     "publisher",
     "license",
     "repository",
-    "releaseAssets",
     "tags",
     "launcher",
     "game",
     "content",
     "capabilities",
-    "dlc"
+    "dlc",
+    "sourcePath",
+    "platforms"
   ],
   "properties": {
     "schema": {
       "const": "xenon.module-entry"
     },
     "version": {
-      "type": "integer",
-      "minimum": 1
+      "const": 2
     },
     "id": {
       "type": "string",
@@ -97,28 +97,15 @@
           ]
         },
         "owner": {
-          "type": "string",
-          "minLength": 1
+          "const": "nimauria"
         },
         "name": {
-          "type": "string",
-          "minLength": 1
+          "const": "Xenon-Modules"
         },
         "defaultBranch": {
           "type": "string",
           "minLength": 1
         }
-      }
-    },
-    "releaseAssets": {
-      "type": "object",
-      "minProperties": 1,
-      "additionalProperties": {
-        "type": "string",
-        "minLength": 1
-      },
-      "propertyNames": {
-        "pattern": "^[a-z0-9]+-[a-z0-9_]+$"
       }
     },
     "tags": {
@@ -483,6 +470,19 @@
             "format": "uri"
           }
         }
+      }
+    },
+    "sourcePath": {
+      "type": "string",
+      "pattern": "^games/[a-z0-9][a-z0-9-]*/[a-z0-9][a-z0-9._-]*$"
+    },
+    "platforms": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+-[a-z0-9_]+$"
       }
     }
   }

@@ -1,0 +1,9 @@
+# Package indexes verify exact committed bytes on every host.
+/games/** -text
+
+*.dll binary
+*.so binary
+*.dylib binary
+*.webp binary
+*.png binary
+*.jpg binary

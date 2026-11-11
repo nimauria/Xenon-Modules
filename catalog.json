@@ -1,7 +1,7 @@
 {
   "schema": "xenon.module-catalog",
-  "version": 1,
+  "version": 2,
   "modules": [
-    "modules/org.nimauria.project-gracemeria.json"
+    "games/nimauria/project-gracemeria/entry.json"
   ]
 }
