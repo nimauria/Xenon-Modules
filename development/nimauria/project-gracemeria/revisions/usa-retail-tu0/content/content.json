@@ -1,0 +1,28 @@
+{
+  "schema": "project-gracemeria.content",
+  "version": 1,
+  "titleId": "4E4D07D1",
+  "mediaId": "531C30BE",
+  "region": "NTSC-U",
+  "titleUpdates": {
+    "base": {
+      "label": "TU0/base executable",
+      "analysisHints": "../analysis/hints.json",
+      "status": "source-supported"
+    },
+    "knownUpdates": [
+      {
+        "label": "TU2",
+        "status": "known-update-effective-revision-profile-pending",
+        "policy": "Xenon owns XEXP validation/application. Create a separate effective-revision profile after local verification; never reuse TU0 addresses blindly.",
+        "mediaId": "531C30BE",
+        "source": "Historical public Xbox 360 title-update listings identify TU2 for Media ID 531C30BE; no update payload is distributed by Gracemeria."
+      }
+    ]
+  },
+  "dlc": {
+    "owner": "Xenon content/STFS subsystem",
+    "catalogueStatus": "65 descriptive entries mirrored in the installed module manifest and Xenon-Modules registry; STFS content IDs remain locally verifiable",
+    "moduleDoesNotImplementStfs": true
+  }
+}

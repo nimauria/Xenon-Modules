@@ -41,3 +41,10 @@ Updated launchers accept version-1 discovery entries during migration and map
 their repository owner/name to lowercase games/<owner>/<name> paths. Old
 launchers cannot read version 2: ship the new launcher before changing the public
 catalogue. Existing module IDs are retained.
+
+## Development and artwork
+
+entry.developmentPath optionally links a release payload to its development project.
+Development source is never downloaded. tileArt and heroArt are optional; supplied
+public artwork must have a matching permitted, hash-bound artwork.json record.
+See ARTWORK.md and schema/artwork.schema.json.

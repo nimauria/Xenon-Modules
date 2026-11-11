@@ -1,6 +1,8 @@
 import { read, sync, root } from "./sync-packages.mjs";
 import { existsSync, readdirSync, lstatSync } from "node:fs";
 import { resolve } from "node:path";
+import { artworkIssues } from "./artwork.mjs";
+import { projects } from "./development.mjs";
 const catalog = read("catalog.json"),
   ids = new Set(),
   paths = new Set(),
@@ -45,14 +47,10 @@ for (const path of catalog.modules) {
     entry.platforms.some((p) => !/^[a-z0-9]+-[a-z0-9_]+$/.test(p))
   )
     throw Error("Invalid platforms");
-  for (const kind of ["tileArt", "heroArt"]) {
-    const art = entry.launcher[kind];
-    if (
-      !art.startsWith(entry.sourcePath + "/assets/") ||
-      art.includes("..") ||
-      !existsSync(resolve(root, art))
-    )
-      throw Error("Missing module artwork");
+  const issues = artworkIssues(entry);
+  if (issues.length) {
+    if (process.argv.includes("--publish")) throw Error(issues.join("\n"));
+    for (const issue of issues) console.warn(issue);
   }
 }
 for (const owner of readdirSync(resolve(root, "games"), {
@@ -71,4 +69,20 @@ for (const owner of readdirSync(resolve(root, "games"), {
 if (folders.size !== paths.size || [...folders].some((p) => !paths.has(p)))
   throw Error("Every game folder must be listed in catalog.json");
 sync(true);
-console.log(`Validated ${ids.size} modules and their repository files.`);
+const development = projects();
+for (const entryPath of paths) {
+  const entry = read(entryPath);
+  if (
+    entry.developmentPath &&
+    !development.some(
+      (project) =>
+        project.path === entry.developmentPath &&
+        project.id === entry.id &&
+        project.payloadPath === entry.sourcePath,
+    )
+  )
+    throw Error("Catalogue development project does not exist");
+}
+console.log(
+  `Validated ${ids.size} payloads and ${development.length} development projects.`,
+);

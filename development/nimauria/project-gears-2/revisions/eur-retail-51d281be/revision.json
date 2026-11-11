@@ -1,0 +1,27 @@
+{
+  "schema": "project-gears-2.revision",
+  "version": 1,
+  "id": "gow2-eur-retail-51d281be",
+  "displayName": "Gears of War 2 Europe/Australia retail (Media ID 51D281BE, disc executable)",
+  "identity": {
+    "titleId": "4D53082D",
+    "mediaId": "51D281BE",
+    "discNumber": 1,
+    "baseVersion": "00000007",
+    "effectiveVersion": "00000007",
+    "titleUpdateApplied": false,
+    "effectiveImageHash": "dc3ba9d7eae093ee688946352ef00fc2400f5c89",
+    "xexSha1": "e39b0eafee460fa699f52e06860f65700026b7c3",
+    "xexCodeSha1": "eb8aedd4567c220176ae4e7d95c89f667a361387"
+  },
+  "status": "identity-verified",
+  "analysisHints": "analysis/hints.json",
+  "hookClassification": "analysis/hooks.json",
+  "contentProfile": "content/content.json",
+  "compatibility": "compatibility/patches.json",
+  "notes": [
+    "Identity read on 2026-11-06 from a legally supplied disc with Xenon's module-inspector --identity (effective image hash = Xenon compute_effective_image_hash of the decrypted executable).",
+    "xexCodeSha1 is SHA-1 of default.xex from its image offset (0x4000) on, the fingerprint COGBox's launcher uses: it equals COGBox's US 0.0.0.5 disc build, so this executable's code is identical to the one COGBox's disc hints were made for.",
+    "A Title Update 6 effective image is a different executable and needs its own revision entry."
+  ]
+}

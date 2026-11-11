@@ -1,0 +1,127 @@
+{
+  "schema": "project-gracemeria.analysis-hints",
+  "version": 1,
+  "revision": "ac6-us-retail-531c30be-tu0",
+  "policy": {
+    "automaticAnalysisFirst": true,
+    "legacyFunctionTableIsReferenceOnly": true,
+    "reason": "AC6_recomp's function table is overwhelmingly generated rex_sub_* names. Xenon XEX unwind metadata/direct discovery should own boundaries; the legacy table is used only to recover misses after a real-title comparison."
+  },
+  "functionBoundaries": [],
+  "knownSymbols": [
+    {
+      "address": 2185013680,
+      "name": "ac6_setjmp",
+      "kind": "guest-runtime"
+    },
+    {
+      "address": 2185012880,
+      "name": "ac6_longjmp",
+      "kind": "guest-runtime"
+    },
+    {
+      "address": 2183110160,
+      "name": "RtlAllocateHeap",
+      "kind": "native-replacement-candidate"
+    },
+    {
+      "address": 2183112440,
+      "name": "RtlFreeHeap",
+      "kind": "native-replacement-candidate"
+    },
+    {
+      "address": 2183106728,
+      "name": "RtlSizeHeap",
+      "kind": "native-replacement-candidate"
+    },
+    {
+      "address": 2183113184,
+      "name": "RtlReAllocateHeap",
+      "kind": "native-replacement-candidate"
+    },
+    {
+      "address": 2184720152,
+      "name": "memcpy",
+      "kind": "native-replacement-candidate"
+    },
+    {
+      "address": 2184722544,
+      "name": "memmove",
+      "kind": "native-replacement-candidate"
+    },
+    {
+      "address": 2184720624,
+      "name": "memset",
+      "kind": "native-replacement-candidate"
+    },
+    {
+      "address": 2184718992,
+      "name": "XMemCpy",
+      "kind": "native-replacement-candidate"
+    },
+    {
+      "address": 2184722736,
+      "name": "strncmp",
+      "kind": "native-replacement-candidate"
+    },
+    {
+      "address": 2184717168,
+      "name": "strncpy",
+      "kind": "native-replacement-candidate"
+    },
+    {
+      "address": 2184716688,
+      "name": "strchr",
+      "kind": "native-replacement-candidate"
+    },
+    {
+      "address": 2184717600,
+      "name": "strstr",
+      "kind": "native-replacement-candidate"
+    },
+    {
+      "address": 2184767504,
+      "name": "strrchr",
+      "kind": "native-replacement-candidate"
+    },
+    {
+      "address": 2184716752,
+      "name": "strcpy_s",
+      "kind": "native-replacement-candidate"
+    },
+    {
+      "address": 2184715744,
+      "name": "memcpy_s",
+      "kind": "native-replacement-candidate"
+    },
+    {
+      "address": 2184710640,
+      "name": "memmove_s",
+      "kind": "native-replacement-candidate"
+    }
+  ],
+  "indirectCallSites": [
+    {
+      "address": 2184692584,
+      "source": "AC6_recomp ac6recomp_config.toml"
+    },
+    {
+      "address": 2184690248,
+      "source": "AC6_recomp ac6recomp_config.toml"
+    }
+  ],
+  "dataRegions": [],
+  "ignoredRegions": [],
+  "switchTables": [],
+  "functionChunks": [],
+  "analysisExclusions": [],
+  "specialAddresses": {
+    "setjmp": 2185013680,
+    "longjmp": 2185012880
+  },
+  "notes": [
+    "No switch-table declarations, function chunks, parent/chunk relationships, invalid-code regions, explicit data regions, or analysis exclusions are present in the supplied AC6_recomp config.",
+    "The two indirect-call sites are represented through Xenon's generic Analysis Hint Schema V2 KnownIndirectCall (xenon::recomp::analysis::AnalysisHintSetV2) - see include/gracemeria/ac6_migration.hpp and revisions/usa-retail-tu0/analysis/hints.v2.json for the schema-native form this legacy file's data was migrated into.",
+    "CRT mappings are retained as optimization candidates; baseline Xenon may compile the guest implementations rather than replacing them."
+  ]
+}

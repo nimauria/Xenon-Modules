@@ -1,28 +1,29 @@
-# Contributing a game module
+# Contributing a module
 
-1. Create games/<github-username>/<game-slug>/ using lowercase names.
-2. Put only the installable module DLLs, metadata, licence and artwork there.
-   Keep its module ID stable across moves and updates. Several games can share
-   one contributor folder. A fork of an existing module needs a distinct ID.
-3. Add entry.json following schema/module-entry.schema.json: version 2,
-   sourcePath matching the folder, repository pointing to nimauria/Xenon-Modules,
-   and supported host keys in platforms. Artwork paths begin with
-   <sourcePath>/assets/. Preserve accurate author attribution in publisher.
-4. Add xenon-module.json with the same ID, a semantic version, supported game
-   identities, and accurate compatibility requirements.
-5. Add package-files.json with an include array of module-relative files or
-   directories. Include xenon-module.json, licences, runtime metadata,
-   and required artwork. Exclude developer source, tests, build tools and user game data.
-   For prebuilt DLLs, hook implementations are already compiled in. Include
-   preparation inputs only when the module explicitly builds its DLL locally.
-6. Add <sourcePath>/entry.json to catalog.json.
-7. Run node scripts/sync-packages.mjs and node scripts/validate-catalog.mjs.
-   Commit package.json alongside the files it indexes. Validate the module DLL
-   against its declared Xenon ABI and supported game revisions before publishing.
-8. Submit a pull request here. After review and merge, launcher clients can
-   discover and install the module. No separate repository or release is needed.
+1. Add source, tools, hooks, tests and revision work to development/<username>/<project>/.
+   Keep generated game code, game content and build caches out of Git. Use the
+   shared root ignore rules; add project-specific rules scoped to development/.
+2. Add project.json following schema/development-project.schema.json. Use a
+   stable module ID matching xenon-module.json. Leave payloadPath null while the
+   project is not ready for distribution.
+3. When ready, create games/<username>/<game>/entry.json and the initial runtime
+   manifest and package-files.json. Match entry.id and developmentPath to the
+   development project. Set the project's payloadPath to this game folder.
+4. Declare supported hosts and accurate compatibility. Put native libraries under
+   bin/<platform>/. Compile hook implementations into a prebuilt DLL. List any
+   required external runtime data explicitly. Preparation packages may include
+   exported analysis and hook inputs when Xenon builds their DLL locally.
+5. Artwork is optional. Use scripts/import-artwork.mjs with a complete permission
+   record for public images. Unconfirmed publisher artwork stays under ignored
+   .local/artwork/. See ARTWORK.md.
+6. Explicitly export reviewed runtime files with scripts/export-module.mjs, then
+   run scripts/validate-catalog.mjs --publish and the project's own checks. Commit
+   exported files and their generated package.json together. Development edits
+   are not automatically released to launcher clients.
+7. Submit a PR here. No per-game repository, GitHub Release or uploaded ZIP is
+   required. Include validation evidence and remaining compatibility limits.
 
-For updates, edit the game folder and regenerate its index. A version bump is
-useful for people; file digests determine whether installed content has changed.
-Other games remain independent. Platform declarations are not playability
-evidence. Include test results and remaining limitations in pull requests.
+The launcher reads only catalogue entries and their declared games/ payloads.
+DLLs are ignored in development/ and intentionally trackable in games/. Publishers
+remain responsible for rights to distribute every file, including artwork and
+module binaries. A folder or publisher label does not prove permission.

@@ -1,0 +1,27 @@
+{
+  "schema": "project-gears-2.content",
+  "version": 1,
+  "titleId": "4D53082D",
+  "mediaId": "51D281BE",
+  "region": "PAL",
+  "languages": "Disc carries En, Fr, De, Es, It, Zh, Ko, Pl, Ru, Cs, Hu text and En, Fr, De audio (Redump name).",
+  "titleUpdates": {
+    "base": {
+      "label": "Disc executable",
+      "analysisHints": "../analysis/hints.json",
+      "status": "in-development"
+    },
+    "knownUpdates": [
+      {
+        "label": "TU6",
+        "status": "effective-revision-profile-pending",
+        "policy": "Xenon owns XEXP validation and application. Create a separate effective-revision profile after local verification; never reuse disc addresses for the patched image."
+      }
+    ]
+  },
+  "dlc": {
+    "owner": "Xenon content/STFS subsystem",
+    "catalogueStatus": "not yet catalogued",
+    "moduleDoesNotImplementStfs": true
+  }
+}

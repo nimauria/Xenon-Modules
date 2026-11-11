@@ -1,0 +1,20 @@
+{
+  "schema": "project-gracemeria.content",
+  "version": 1,
+  "titleId": "4E4D07D1",
+  "mediaId": "0379EFB3",
+  "region": "PAL",
+  "titleUpdates": {
+    "base": {
+      "label": "Europe Rev 1 executable",
+      "analysisHints": "../analysis/hints.json",
+      "status": "translated-from-usa-retail-tu0"
+    },
+    "knownUpdates": []
+  },
+  "dlc": {
+    "owner": "Xenon content/STFS subsystem",
+    "catalogueStatus": "65 descriptive entries mirrored in the installed module manifest and Xenon-Modules registry; STFS content IDs remain locally verifiable",
+    "moduleDoesNotImplementStfs": true
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schema": "project-gracemeria.port-overrides",
+  "version": 1,
+  "notes": [
+    "Sites whose code differs between revisions, located and verified by disassembly of the Europe Rev 1 executable (2026-10-30): every JobPoolB::Submit storage call site stores the operation code before the bl."
+  ],
+  "baselinePolicy": "Hooks run through Xenon's instruction-hook contract. This revision already contains the title update's storage-order fix, so it enables no hooks; optional enhancements and research probes stay disabled metadata.",
+  "hooks": [
+    {
+      "name": "ac6StorageOrderHookOp2",
+      "address": 2182954052,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "name": "ac6StorageOrderHookOp3",
+      "address": 2182954180,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "name": "ac6StorageOrderHookOp6",
+      "address": 2182954368,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "name": "ac6StorageOrderHookOp7",
+      "address": 2182954512,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "name": "ac6StorageOrderHookOpA",
+      "address": 2182954792,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "name": "ac6StorageOrderHookOpB",
+      "address": 2182954984,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "name": "ac6StorageOrderHookOpC",
+      "address": 2182955176,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "name": "ac6StorageOrderHookOpD",
+      "address": 2182903048,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "name": "ac6StorageOrderHookOp8",
+      "address": 2182909588,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "name": "ac6StorageOrderHookOp9",
+      "address": 2182909768,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "name": "ac6StorageOrderHookOp10",
+      "address": 2182910568,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "name": "ac6StorageOrderHookVar",
+      "address": 2182896236,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    }
+  ],
+  "patches": [
+    {
+      "id": "storage-submit-order",
+      "classification": "present-in-executable",
+      "policy": "This executable already orders the storage job operation-code store before JobPoolB::Submit at all twelve sites."
+    }
+  ]
+}

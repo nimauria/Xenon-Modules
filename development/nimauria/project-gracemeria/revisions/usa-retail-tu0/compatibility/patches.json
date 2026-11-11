@@ -1,0 +1,41 @@
+{
+  "schema": "project-gracemeria.patch-metadata",
+  "version": 1,
+  "revision": "ac6-us-retail-531c30be-tu0",
+  "patches": [
+    {
+      "id": "storage-submit-order",
+      "classification": "vendor-title-update-fix",
+      "enabled": false,
+      "source": "AC6_recomp ac6_storage_submit_order_fix.cpp research",
+      "policy": "Prefer Xenon's Title Update pipeline. Do not duplicate the TU's guest-code reordering as a permanent Gracemeria patch."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "60-fps",
+      "status": "research-preserved-not-ported",
+      "reason": "Timing hooks are AC6-specific, but their ReXGlue implementation is coupled to ReXGlue timing/presentation."
+    },
+    {
+      "id": "widescreen",
+      "status": "research-preserved-not-ported",
+      "reason": "Optional enhancement; current implementation reaches directly into the ReXGlue/Xenia renderer and guest memory."
+    },
+    {
+      "id": "full-resolution-effects",
+      "status": "research-preserved-not-ported",
+      "reason": "Renderer-backend workaround/enhancement must be redesigned against Xenon's Xenos semantic layer, not copied."
+    },
+    {
+      "id": "terrain-hd",
+      "status": "research-preserved-not-ported",
+      "reason": "Renderer-specific behavior must be verified against Xenon's canonical graphics path."
+    },
+    {
+      "id": "keyboard-mouse",
+      "status": "not-ported",
+      "reason": "Xenon owns input; the ReXGlue virtual-pad layer is discarded. A future AC6 mapping preset can use Xenon Input API v1 without replacing input."
+    }
+  ]
+}

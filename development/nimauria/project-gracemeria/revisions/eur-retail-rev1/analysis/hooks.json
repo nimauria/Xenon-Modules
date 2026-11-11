@@ -1,0 +1,411 @@
+{
+  "schema": "project-gracemeria.hook-classification",
+  "version": 1,
+  "revision": "ac6-eur-retail-0379efb3-rev1",
+  "baselinePolicy": "Hooks run through Xenon's instruction-hook contract. This revision already contains the title update's storage-order fix, so it enables no hooks; optional enhancements and research probes stay disabled metadata.",
+  "hooks": [
+    {
+      "address": 2183064484,
+      "name": "ac6FlipIntervalHook",
+      "registers": [],
+      "jumpAddressOnTrue": 2183064492,
+      "classification": "optional-enhancement",
+      "enabled": false,
+      "rationale": "Frame pacing/60 FPS behavior from AC6_recomp; requires a stable Xenon title-hook ABI before reimplementation"
+    },
+    {
+      "address": 2183068920,
+      "name": "ac6DeltaDivisorHook",
+      "registers": [
+        "r29"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "optional-enhancement",
+      "enabled": false,
+      "rationale": "Frame pacing/60 FPS behavior from AC6_recomp; requires a stable Xenon title-hook ABI before reimplementation"
+    },
+    {
+      "address": 2183068980,
+      "name": "ac6DeltaPrecisionHook",
+      "registers": [
+        "r8",
+        "r10",
+        "r29",
+        "r30"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "optional-enhancement",
+      "enabled": false,
+      "rationale": "Frame pacing/60 FPS behavior from AC6_recomp; requires a stable Xenon title-hook ABI before reimplementation"
+    },
+    {
+      "address": 2184205144,
+      "name": "ac6PathDropHook",
+      "registers": [
+        "f9"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "compatibility-review",
+      "enabled": false,
+      "rationale": "Path-drop behavior requires real-title validation against Xenon filesystem before any patch is enabled"
+    },
+    {
+      "address": 2183071160,
+      "name": "ac6PresentTimingHook",
+      "registers": [
+        "r31"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "optional-enhancement",
+      "enabled": false,
+      "rationale": "Frame pacing/60 FPS behavior from AC6_recomp; requires a stable Xenon title-hook ABI before reimplementation"
+    },
+    {
+      "address": 2183069424,
+      "name": "ac6PresentIntervalHook",
+      "registers": [
+        "r10"
+      ],
+      "jumpAddressOnTrue": 2183069492,
+      "classification": "optional-enhancement",
+      "enabled": false,
+      "rationale": "Frame pacing/60 FPS behavior from AC6_recomp; requires a stable Xenon title-hook ABI before reimplementation"
+    },
+    {
+      "address": 2182628608,
+      "name": "ac6CinematicTickHook",
+      "registers": [
+        "r3"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "optional-enhancement",
+      "enabled": false,
+      "rationale": "Cutscene audio-master resync; ReXGlue implementation depends on its audio/timing plumbing"
+    },
+    {
+      "address": 2182633376,
+      "name": "ac6CinematicTickHook",
+      "registers": [
+        "r3"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "optional-enhancement",
+      "enabled": false,
+      "rationale": "Cutscene audio-master resync; ReXGlue implementation depends on its audio/timing plumbing"
+    },
+    {
+      "address": 2184462872,
+      "name": "ac6PacWorkerDispatchHook",
+      "registers": [
+        "r28",
+        "ctr"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2184469128,
+      "name": "ac6PacWorkerL2DispatchHook",
+      "registers": [
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "ctr"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2184469416,
+      "name": "ac6PacWorkerL2DispatchHook",
+      "registers": [
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "ctr"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2184469740,
+      "name": "ac6PacWorkerL2DispatchHook",
+      "registers": [
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "ctr"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2184470136,
+      "name": "ac6PacWorkerL2DispatchHook",
+      "registers": [
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "ctr"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2184470424,
+      "name": "ac6PacWorkerL2DispatchHook",
+      "registers": [
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "ctr"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2182925348,
+      "name": "ac6PacDecoderDumpHook",
+      "registers": [
+        "r4",
+        "r10",
+        "r11",
+        "r31"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2183985440,
+      "name": "ac6PacCodecDispatchProbe",
+      "registers": [
+        "r3"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2183984904,
+      "name": "ac6PacMode1EntryProbe",
+      "registers": [
+        "r3"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2183974752,
+      "name": "ac6PacBitFetcherProbe",
+      "registers": [
+        "r3",
+        "r4",
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2183982800,
+      "name": "ac6PacDynamicHeaderProbe",
+      "registers": [
+        "r3",
+        "r4"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2183978824,
+      "name": "ac6PacTreeBuilderProbe",
+      "registers": [
+        "r3"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2183976056,
+      "name": "ac6PacBlockConsumerProbe",
+      "registers": [
+        "r3"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2183977832,
+      "name": "ac6PacBlockConsumerProbe",
+      "registers": [
+        "r3"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2182954052,
+      "name": "ac6StorageOrderHookOp2",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "address": 2182954180,
+      "name": "ac6StorageOrderHookOp3",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "address": 2182954368,
+      "name": "ac6StorageOrderHookOp6",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "address": 2182954512,
+      "name": "ac6StorageOrderHookOp7",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "address": 2182954792,
+      "name": "ac6StorageOrderHookOpA",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "address": 2182954984,
+      "name": "ac6StorageOrderHookOpB",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "address": 2182955176,
+      "name": "ac6StorageOrderHookOpC",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "address": 2182903048,
+      "name": "ac6StorageOrderHookOpD",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "address": 2182909588,
+      "name": "ac6StorageOrderHookOp8",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "address": 2182909768,
+      "name": "ac6StorageOrderHookOp9",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "address": 2182910568,
+      "name": "ac6StorageOrderHookOp10",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    },
+    {
+      "address": 2182896236,
+      "name": "ac6StorageOrderHookVar",
+      "registers": [
+        "r5",
+        "r29"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "fixed-in-revision",
+      "enabled": false,
+      "rationale": "This executable already stores the operation code to [job+4] before JobPoolB::Submit (0x821D4A28 here) at this site - the retail title update's ordering - so no hook is needed."
+    }
+  ]
+}

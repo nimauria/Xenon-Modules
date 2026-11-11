@@ -1,0 +1,104 @@
+{
+  "schema": "project-gracemeria.native-replacements",
+  "version": 1,
+  "revision": "ac6-eur-retail-0379efb3-rev1",
+  "policy": "Generic CRT/heap behavior belongs to Xenon. These address/name pairs are candidates for a future generic Xenon native-replacement facility; Gracemeria does not ship duplicate implementations.",
+  "mappings": [
+    {
+      "guestAddress": 2183110096,
+      "name": "RtlAllocateHeap",
+      "owner": "xenon-generic",
+      "enabled": false
+    },
+    {
+      "guestAddress": 2183112376,
+      "name": "RtlFreeHeap",
+      "owner": "xenon-generic",
+      "enabled": false
+    },
+    {
+      "guestAddress": 2183106664,
+      "name": "RtlSizeHeap",
+      "owner": "xenon-generic",
+      "enabled": false
+    },
+    {
+      "guestAddress": 2183113120,
+      "name": "RtlReAllocateHeap",
+      "owner": "xenon-generic",
+      "enabled": false
+    },
+    {
+      "guestAddress": 2184721400,
+      "name": "memcpy",
+      "owner": "xenon-generic",
+      "enabled": false
+    },
+    {
+      "guestAddress": 2184723792,
+      "name": "memmove",
+      "owner": "xenon-generic",
+      "enabled": false
+    },
+    {
+      "guestAddress": 2184721872,
+      "name": "memset",
+      "owner": "xenon-generic",
+      "enabled": false
+    },
+    {
+      "guestAddress": 2184720240,
+      "name": "XMemCpy",
+      "owner": "xenon-generic",
+      "enabled": false
+    },
+    {
+      "guestAddress": 2184723984,
+      "name": "strncmp",
+      "owner": "xenon-generic",
+      "enabled": false
+    },
+    {
+      "guestAddress": 2184718416,
+      "name": "strncpy",
+      "owner": "xenon-generic",
+      "enabled": false
+    },
+    {
+      "guestAddress": 2184717936,
+      "name": "strchr",
+      "owner": "xenon-generic",
+      "enabled": false
+    },
+    {
+      "guestAddress": 2184718848,
+      "name": "strstr",
+      "owner": "xenon-generic",
+      "enabled": false
+    },
+    {
+      "guestAddress": 2184768752,
+      "name": "strrchr",
+      "owner": "xenon-generic",
+      "enabled": false
+    },
+    {
+      "guestAddress": 2184718000,
+      "name": "strcpy_s",
+      "owner": "xenon-generic",
+      "enabled": false
+    },
+    {
+      "guestAddress": 2184717000,
+      "name": "memcpy_s",
+      "owner": "xenon-generic",
+      "enabled": false
+    },
+    {
+      "guestAddress": 2184711896,
+      "name": "memmove_s",
+      "owner": "xenon-generic",
+      "enabled": false
+    }
+  ]
+}

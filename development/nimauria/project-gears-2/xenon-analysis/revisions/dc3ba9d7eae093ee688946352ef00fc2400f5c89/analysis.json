@@ -1,0 +1,24 @@
+{
+  "chunks": [],
+  "functions": [],
+  "hooks": [],
+  "identity": {
+    "baseVersion": 7,
+    "effectiveImageHash": "dc3ba9d7eae093ee688946352ef00fc2400f5c89",
+    "effectiveVersion": 7,
+    "mediaId": 1372750270,
+    "titleId": 1297287213,
+    "titleUpdateApplied": false
+  },
+  "indirectBranches": [],
+  "indirectCalls": [],
+  "instructionPatterns": [],
+  "moduleName": "eur-retail-51d281be",
+  "nativeReplacements": [],
+  "patches": [],
+  "regions": [],
+  "runtimeHelpers": [],
+  "schemaVersion": 2,
+  "switches": [],
+  "symbols": []
+}

@@ -1,0 +1,43 @@
+{
+  "configVersion": 1,
+  "sessionId": "ac6-startup-validation",
+  "sessionDir": "C:/Users/Elean/Documents/Development/Xbox360-Recomp/Project-Gracemeria/runtime/ac6-startup/session",
+  "gameId": "4E4D07D1",
+  "title": "Ace Combat 6: Fires of Liberation",
+  "contentPath": "C:/Users/Elean/Documents/Development/AC6-Extracted",
+  "moduleId": "org.nimauria.project-gracemeria",
+  "moduleName": "Project Gracemeria",
+  "modulePath": "C:/Users/Elean/Documents/Development/Xbox360-Recomp/Project-Gracemeria",
+  "moduleVersion": "0.1.0",
+  "moduleSettings": {},
+  "runtimeApiRequirements": {},
+  "nativeExtensionPath": "C:/Users/Elean/Documents/Development/Xbox360-Recomp/Project-Gracemeria/build/generated/ac6-us/xenon_game_module.dll",
+  "profileId": "ac6-validation",
+  "profileName": "AC6 Validation",
+  "region": "NTSC-U",
+  "renderer": "Automatic",
+  "shaderCache": true,
+  "shaderCacheMode": "Persistent",
+  "inputBackend": "Automatic",
+  "inputPreferredDevice": "Automatic",
+  "inputDeadzone": 0.10,
+  "inputRumble": true,
+  "inputBackground": false,
+  "inputModuleApiVersion": 1,
+  "inputUserSources": [
+    {"userIndex": 0, "sources": []}
+  ],
+  "audioMasterVolume": 1.0,
+  "audioMuteUnfocused": false,
+  "logVerbose": true,
+  "memoryWatch": [
+    "0x3FFBE738"
+  ],
+  "titleUpdatePath": "",
+  "dlcRootPath": "",
+  "dlc": [],
+  "savePath": "C:/Users/Elean/Documents/Development/Xbox360-Recomp/Project-Gracemeria/runtime/ac6-startup/saves",
+  "screenshotsPath": "C:/Users/Elean/Documents/Development/Xbox360-Recomp/Project-Gracemeria/runtime/ac6-startup/screenshots",
+  "offline": true,
+  "headlessMode": false
+}

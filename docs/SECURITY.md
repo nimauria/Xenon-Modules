@@ -19,3 +19,8 @@ The launcher does not execute module code during installation.
 Commercial game payloads, firmware, executables, title updates, DLC and keys must
 not be committed. Game content stays local; module DLLs can be distributed here. Signatures,
 revocation and finer contributor permissions remain future work.
+
+Development and release inputs are kept separate. Export only reviewed files from
+development/ into games/. Publication checks require artwork permission records;
+they check the record and file hash, not the legal validity of the assertion.
+Unconfirmed images remain local and ignored. See ARTWORK.md.

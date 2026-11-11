@@ -123,8 +123,6 @@
       "required": [
         "gameTitle",
         "moduleName",
-        "tileArt",
-        "heroArt",
         "description",
         "renderer",
         "mode",
@@ -484,6 +482,10 @@
         "type": "string",
         "pattern": "^[a-z0-9]+-[a-z0-9_]+$"
       }
+    },
+    "developmentPath": {
+      "type": "string",
+      "pattern": "^development/[a-z0-9][a-z0-9-]*/[a-z0-9][a-z0-9._-]*$"
     }
   }
 }

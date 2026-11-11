@@ -1,0 +1,2225 @@
+{
+  "chunks": [
+    {
+      "end": 2181795676,
+      "parentFunction": 2181794984,
+      "start": 2181795312
+    },
+    {
+      "end": 2181797388,
+      "parentFunction": 2181797072,
+      "start": 2181797176
+    },
+    {
+      "end": 2182770160,
+      "parentFunction": 2182769952,
+      "start": 2182770060
+    },
+    {
+      "end": 2182828360,
+      "parentFunction": 2182828328,
+      "start": 2182828344
+    }
+  ],
+  "functions": [
+    {
+      "address": 2181629976,
+      "flags": [],
+      "name": "rex_sub_82090818"
+    },
+    {
+      "address": 2181640536,
+      "flags": [],
+      "name": "rex_sub_82093158"
+    },
+    {
+      "address": 2181640768,
+      "flags": [],
+      "name": "gracemeria_fn_82093240"
+    },
+    {
+      "address": 2181675680,
+      "flags": [],
+      "name": "rex_sub_8209BAA0"
+    },
+    {
+      "address": 2181675696,
+      "flags": [],
+      "name": "rex_sub_8209BAB0"
+    },
+    {
+      "address": 2181675704,
+      "flags": [],
+      "name": "rex_sub_8209BAB8"
+    },
+    {
+      "address": 2181675712,
+      "flags": [],
+      "name": "rex_sub_8209BAC0"
+    },
+    {
+      "address": 2181675992,
+      "flags": [],
+      "name": "rex_sub_8209BBD8"
+    },
+    {
+      "address": 2181676592,
+      "flags": [],
+      "name": "rex_sub_8209BE30"
+    },
+    {
+      "address": 2181677240,
+      "flags": [],
+      "name": "rex_sub_8209C0B8"
+    },
+    {
+      "address": 2181678064,
+      "flags": [],
+      "name": "rex_sub_8209C3F0"
+    },
+    {
+      "address": 2181757192,
+      "flags": [],
+      "name": "rex_sub_820AF908"
+    },
+    {
+      "address": 2181761352,
+      "flags": [],
+      "name": "rex_sub_820B0948"
+    },
+    {
+      "address": 2181774624,
+      "flags": [],
+      "name": "rex_sub_820B3D20"
+    },
+    {
+      "address": 2181774680,
+      "flags": [],
+      "name": "rex_sub_820B3D58"
+    },
+    {
+      "address": 2181775296,
+      "flags": [],
+      "name": "rex_sub_820B3FC0"
+    },
+    {
+      "address": 2181794984,
+      "flags": [],
+      "name": "gracemeria_fn_820b8ca8"
+    },
+    {
+      "address": 2181797072,
+      "flags": [],
+      "name": "gracemeria_fn_820b94d0"
+    },
+    {
+      "address": 2181798472,
+      "flags": [],
+      "name": "gracemeria_fn_820b9a48"
+    },
+    {
+      "address": 2181809944,
+      "flags": [],
+      "name": "gracemeria_fn_820bc718"
+    },
+    {
+      "address": 2181818336,
+      "flags": [],
+      "name": "gracemeria_fn_820be7e0"
+    },
+    {
+      "address": 2181835040,
+      "flags": [],
+      "name": "gracemeria_fn_820c2920"
+    },
+    {
+      "address": 2181842576,
+      "flags": [],
+      "name": "gracemeria_fn_820c4690"
+    },
+    {
+      "address": 2181843848,
+      "flags": [],
+      "name": "gracemeria_fn_820c4b88"
+    },
+    {
+      "address": 2181850224,
+      "flags": [],
+      "name": "gracemeria_fn_820c6470"
+    },
+    {
+      "address": 2181853200,
+      "flags": [],
+      "name": "gracemeria_fn_820c7010"
+    },
+    {
+      "address": 2181857152,
+      "flags": [],
+      "name": "gracemeria_fn_820c7f80"
+    },
+    {
+      "address": 2181858280,
+      "flags": [],
+      "name": "gracemeria_fn_820c83e8"
+    },
+    {
+      "address": 2181860792,
+      "flags": [],
+      "name": "gracemeria_fn_820c8db8"
+    },
+    {
+      "address": 2181863984,
+      "flags": [],
+      "name": "gracemeria_fn_820c9a30"
+    },
+    {
+      "address": 2181888336,
+      "flags": [],
+      "name": "gracemeria_fn_820cf950"
+    },
+    {
+      "address": 2181888384,
+      "flags": [],
+      "name": "gracemeria_fn_820cf980"
+    },
+    {
+      "address": 2181888432,
+      "flags": [],
+      "name": "gracemeria_fn_820cf9b0"
+    },
+    {
+      "address": 2181888480,
+      "flags": [],
+      "name": "gracemeria_fn_820cf9e0"
+    },
+    {
+      "address": 2181888528,
+      "flags": [],
+      "name": "gracemeria_fn_820cfa10"
+    },
+    {
+      "address": 2181888576,
+      "flags": [],
+      "name": "gracemeria_fn_820cfa40"
+    },
+    {
+      "address": 2181888624,
+      "flags": [],
+      "name": "gracemeria_fn_820cfa70"
+    },
+    {
+      "address": 2181888672,
+      "flags": [],
+      "name": "gracemeria_fn_820cfaa0"
+    },
+    {
+      "address": 2181913044,
+      "flags": [],
+      "name": "gracemeria_fn_820d59d4"
+    },
+    {
+      "address": 2181923832,
+      "flags": [],
+      "name": "rex_sub_820D83F8"
+    },
+    {
+      "address": 2181924040,
+      "flags": [],
+      "name": "rex_sub_820D84C8"
+    },
+    {
+      "address": 2181924272,
+      "flags": [],
+      "name": "rex_sub_820D85B0"
+    },
+    {
+      "address": 2181960784,
+      "flags": [],
+      "name": "rex_sub_820E1450"
+    },
+    {
+      "address": 2181961608,
+      "flags": [],
+      "name": "rex_sub_820E1788"
+    },
+    {
+      "address": 2181962008,
+      "flags": [],
+      "name": "rex_sub_820E1918"
+    },
+    {
+      "address": 2181965864,
+      "flags": [],
+      "name": "rex_sub_820E2828"
+    },
+    {
+      "address": 2182045616,
+      "flags": []
+    },
+    {
+      "address": 2182045632,
+      "flags": []
+    },
+    {
+      "address": 2182045664,
+      "flags": []
+    },
+    {
+      "address": 2182045680,
+      "flags": []
+    },
+    {
+      "address": 2182045696,
+      "flags": []
+    },
+    {
+      "address": 2182045728,
+      "flags": []
+    },
+    {
+      "address": 2182045760,
+      "flags": []
+    },
+    {
+      "address": 2182045808,
+      "flags": []
+    },
+    {
+      "address": 2182045824,
+      "flags": []
+    },
+    {
+      "address": 2182045840,
+      "flags": []
+    },
+    {
+      "address": 2182052936,
+      "flags": [],
+      "name": "gracemeria_fn_820f7c48"
+    },
+    {
+      "address": 2182053536,
+      "flags": [],
+      "name": "gracemeria_fn_820f7ea0"
+    },
+    {
+      "address": 2182053640,
+      "flags": [],
+      "name": "gracemeria_fn_820f7f08"
+    },
+    {
+      "address": 2182053728,
+      "flags": [],
+      "name": "gracemeria_fn_820f7f60"
+    },
+    {
+      "address": 2182126760,
+      "flags": [],
+      "name": "rex_sub_82109CA8"
+    },
+    {
+      "address": 2182195904,
+      "flags": [],
+      "name": "rex_sub_8211AAC0"
+    },
+    {
+      "address": 2182200096,
+      "flags": [],
+      "name": "rex_sub_8211BB20"
+    },
+    {
+      "address": 2182201080,
+      "flags": [],
+      "name": "rex_sub_8211BEF8"
+    },
+    {
+      "address": 2182201096,
+      "flags": [],
+      "name": "rex_sub_8211BF08"
+    },
+    {
+      "address": 2182240848,
+      "flags": [],
+      "name": "rex_sub_82125A50"
+    },
+    {
+      "address": 2182244024,
+      "flags": [],
+      "name": "rex_sub_821266B8"
+    },
+    {
+      "address": 2182244496,
+      "flags": [],
+      "name": "rex_sub_82126890"
+    },
+    {
+      "address": 2182244792,
+      "flags": [],
+      "name": "rex_sub_821269B8"
+    },
+    {
+      "address": 2182245096,
+      "flags": [],
+      "name": "rex_sub_82126AE8"
+    },
+    {
+      "address": 2182246752,
+      "flags": [],
+      "name": "rex_sub_82127160"
+    },
+    {
+      "address": 2182282536,
+      "flags": [],
+      "name": "rex_sub_8212FD28"
+    },
+    {
+      "address": 2182317912,
+      "flags": [],
+      "name": "rex_sub_82138758"
+    },
+    {
+      "address": 2182367824,
+      "flags": [],
+      "name": "rex_sub_82144A50"
+    },
+    {
+      "address": 2182422784,
+      "flags": [],
+      "name": "rex_sub_82152100"
+    },
+    {
+      "address": 2182471784,
+      "flags": [],
+      "name": "rex_sub_8215E068"
+    },
+    {
+      "address": 2182506256,
+      "flags": [],
+      "name": "rex_sub_82166710"
+    },
+    {
+      "address": 2182520776,
+      "flags": [],
+      "name": "rex_sub_82169FC8"
+    },
+    {
+      "address": 2182526624,
+      "flags": [],
+      "name": "rex_sub_8216B6A0"
+    },
+    {
+      "address": 2182647632,
+      "flags": [],
+      "name": "rex_sub_82188F50"
+    },
+    {
+      "address": 2182664448,
+      "flags": [],
+      "name": "rex_sub_8218D100"
+    },
+    {
+      "address": 2182677040,
+      "flags": [],
+      "name": "rex_sub_82190230"
+    },
+    {
+      "address": 2182694728,
+      "flags": [],
+      "name": "rex_sub_82194748"
+    },
+    {
+      "address": 2182707760,
+      "flags": [],
+      "name": "gracemeria_fn_82197a30"
+    },
+    {
+      "address": 2182719928,
+      "flags": [],
+      "name": "rex_sub_8219A9B8"
+    },
+    {
+      "address": 2182762136,
+      "flags": [],
+      "name": "rex_sub_821A4E98"
+    },
+    {
+      "address": 2182769952,
+      "flags": [],
+      "name": "gracemeria_fn_821a6d20"
+    },
+    {
+      "address": 2182792464,
+      "flags": [],
+      "name": "rex_sub_821AC510"
+    },
+    {
+      "address": 2182816568,
+      "flags": [],
+      "name": "rex_sub_821B2338"
+    },
+    {
+      "address": 2182824384,
+      "flags": [],
+      "name": "rex_sub_821B41C0"
+    },
+    {
+      "address": 2182828328,
+      "flags": [],
+      "name": "gracemeria_fn_821b5128"
+    },
+    {
+      "address": 2182883792,
+      "flags": [],
+      "name": "rex_sub_821C29D0"
+    },
+    {
+      "address": 2182957416,
+      "flags": [],
+      "name": "rex_sub_821D4968"
+    },
+    {
+      "address": 2182976664,
+      "flags": [],
+      "name": "rex_sub_821D9498"
+    },
+    {
+      "address": 2182978696,
+      "flags": [],
+      "name": "rex_sub_821D9C88"
+    },
+    {
+      "address": 2182982672,
+      "flags": [],
+      "name": "rex_sub_821DAC10"
+    },
+    {
+      "address": 2182982920,
+      "flags": [],
+      "name": "rex_sub_821DAD08"
+    },
+    {
+      "address": 2182983352,
+      "flags": [],
+      "name": "rex_sub_821DAEB8"
+    },
+    {
+      "address": 2182983464,
+      "flags": [],
+      "name": "rex_sub_821DAF28"
+    },
+    {
+      "address": 2182983576,
+      "flags": [],
+      "name": "rex_sub_821DAF98"
+    },
+    {
+      "address": 2182984280,
+      "flags": [],
+      "name": "rex_sub_821DB258"
+    },
+    {
+      "address": 2182984336,
+      "flags": [],
+      "name": "rex_sub_821DB290"
+    },
+    {
+      "address": 2182984448,
+      "flags": [],
+      "name": "rex_sub_821DB300"
+    },
+    {
+      "address": 2182984784,
+      "flags": [],
+      "name": "rex_sub_821DB450"
+    },
+    {
+      "address": 2182984832,
+      "flags": [],
+      "name": "rex_sub_821DB480"
+    },
+    {
+      "address": 2182984888,
+      "flags": [],
+      "name": "rex_sub_821DB4B8"
+    },
+    {
+      "address": 2182984944,
+      "flags": [],
+      "name": "rex_sub_821DB4F0"
+    },
+    {
+      "address": 2182984992,
+      "flags": [],
+      "name": "rex_sub_821DB520"
+    },
+    {
+      "address": 2182985040,
+      "flags": [],
+      "name": "rex_sub_821DB550"
+    },
+    {
+      "address": 2182985096,
+      "flags": [],
+      "name": "rex_sub_821DB588"
+    },
+    {
+      "address": 2182985152,
+      "flags": [],
+      "name": "rex_sub_821DB5C0"
+    },
+    {
+      "address": 2182985200,
+      "flags": [],
+      "name": "rex_sub_821DB5F0"
+    },
+    {
+      "address": 2182985232,
+      "flags": [],
+      "name": "rex_sub_821DB610"
+    },
+    {
+      "address": 2182985264,
+      "flags": [],
+      "name": "rex_sub_821DB630"
+    },
+    {
+      "address": 2182985296,
+      "flags": [],
+      "name": "rex_sub_821DB650"
+    },
+    {
+      "address": 2182985328,
+      "flags": [],
+      "name": "rex_sub_821DB670"
+    },
+    {
+      "address": 2182985360,
+      "flags": [],
+      "name": "rex_sub_821DB690"
+    },
+    {
+      "address": 2182985392,
+      "flags": [],
+      "name": "rex_sub_821DB6B0"
+    },
+    {
+      "address": 2182985864,
+      "flags": [],
+      "name": "rex_sub_821DB888"
+    },
+    {
+      "address": 2182985912,
+      "flags": [],
+      "name": "rex_sub_821DB8B8"
+    },
+    {
+      "address": 2182986200,
+      "flags": [],
+      "name": "rex_sub_821DB9D8"
+    },
+    {
+      "address": 2182986216,
+      "flags": [],
+      "name": "rex_sub_821DB9E8"
+    },
+    {
+      "address": 2182986312,
+      "flags": [],
+      "name": "rex_sub_821DBA48"
+    },
+    {
+      "address": 2182986400,
+      "flags": [],
+      "name": "rex_sub_821DBAA0"
+    },
+    {
+      "address": 2182986520,
+      "flags": [],
+      "name": "rex_sub_821DBB18"
+    },
+    {
+      "address": 2182986560,
+      "flags": [],
+      "name": "rex_sub_821DBB40"
+    },
+    {
+      "address": 2182986600,
+      "flags": [],
+      "name": "rex_sub_821DBB68"
+    },
+    {
+      "address": 2182986640,
+      "flags": [],
+      "name": "rex_sub_821DBB90"
+    },
+    {
+      "address": 2182986680,
+      "flags": [],
+      "name": "rex_sub_821DBBB8"
+    },
+    {
+      "address": 2182986720,
+      "flags": [],
+      "name": "rex_sub_821DBBE0"
+    },
+    {
+      "address": 2182986760,
+      "flags": [],
+      "name": "rex_sub_821DBC08"
+    },
+    {
+      "address": 2182986792,
+      "flags": [],
+      "name": "rex_sub_821DBC28"
+    },
+    {
+      "address": 2182986824,
+      "flags": [],
+      "name": "rex_sub_821DBC48"
+    },
+    {
+      "address": 2182986864,
+      "flags": [],
+      "name": "rex_sub_821DBC70"
+    },
+    {
+      "address": 2182986904,
+      "flags": [],
+      "name": "rex_sub_821DBC98"
+    },
+    {
+      "address": 2182986944,
+      "flags": [],
+      "name": "rex_sub_821DBCC0"
+    },
+    {
+      "address": 2182986984,
+      "flags": [],
+      "name": "rex_sub_821DBCE8"
+    },
+    {
+      "address": 2182987024,
+      "flags": [],
+      "name": "rex_sub_821DBD10"
+    },
+    {
+      "address": 2182987064,
+      "flags": [],
+      "name": "rex_sub_821DBD38"
+    },
+    {
+      "address": 2182987432,
+      "flags": [],
+      "name": "rex_sub_821DBEA8"
+    },
+    {
+      "address": 2182987608,
+      "flags": [],
+      "name": "rex_sub_821DBF58"
+    },
+    {
+      "address": 2182987784,
+      "flags": [],
+      "name": "rex_sub_821DC008"
+    },
+    {
+      "address": 2182987960,
+      "flags": [],
+      "name": "rex_sub_821DC0B8"
+    },
+    {
+      "address": 2182988136,
+      "flags": [],
+      "name": "rex_sub_821DC168"
+    },
+    {
+      "address": 2182988192,
+      "flags": [],
+      "name": "rex_sub_821DC1A0"
+    },
+    {
+      "address": 2182988248,
+      "flags": [],
+      "name": "rex_sub_821DC1D8"
+    },
+    {
+      "address": 2182988304,
+      "flags": [],
+      "name": "rex_sub_821DC210"
+    },
+    {
+      "address": 2182988448,
+      "flags": [],
+      "name": "rex_sub_821DC2A0"
+    },
+    {
+      "address": 2182988496,
+      "flags": [],
+      "name": "rex_sub_821DC2D0"
+    },
+    {
+      "address": 2182988552,
+      "flags": [],
+      "name": "rex_sub_821DC308"
+    },
+    {
+      "address": 2182988600,
+      "flags": [],
+      "name": "rex_sub_821DC338"
+    },
+    {
+      "address": 2182988648,
+      "flags": [],
+      "name": "rex_sub_821DC368"
+    },
+    {
+      "address": 2182988688,
+      "flags": [],
+      "name": "rex_sub_821DC390"
+    },
+    {
+      "address": 2182988736,
+      "flags": [],
+      "name": "rex_sub_821DC3C0"
+    },
+    {
+      "address": 2182988888,
+      "flags": [],
+      "name": "rex_sub_821DC458"
+    },
+    {
+      "address": 2182988936,
+      "flags": [],
+      "name": "rex_sub_821DC488"
+    },
+    {
+      "address": 2182988984,
+      "flags": [],
+      "name": "rex_sub_821DC4B8"
+    },
+    {
+      "address": 2182989032,
+      "flags": [],
+      "name": "rex_sub_821DC4E8"
+    },
+    {
+      "address": 2182989080,
+      "flags": [],
+      "name": "rex_sub_821DC518"
+    },
+    {
+      "address": 2182990000,
+      "flags": [],
+      "name": "rex_sub_821DC8B0"
+    },
+    {
+      "address": 2183013736,
+      "flags": [],
+      "name": "rex_sub_821E2568"
+    },
+    {
+      "address": 2183014328,
+      "flags": []
+    },
+    {
+      "address": 2183087776,
+      "flags": [],
+      "name": "rex_sub_821F46A0"
+    },
+    {
+      "address": 2183096688,
+      "flags": [],
+      "name": "rex_sub_821F6970"
+    },
+    {
+      "address": 2183097600,
+      "flags": [],
+      "name": "rex_sub_821F6D00"
+    },
+    {
+      "address": 2183099544,
+      "flags": [],
+      "name": "rex_sub_821F7498"
+    },
+    {
+      "address": 2183099704,
+      "flags": [],
+      "name": "rex_sub_821F7538"
+    },
+    {
+      "address": 2183102472,
+      "flags": [],
+      "name": "rex_sub_821F8008"
+    },
+    {
+      "address": 2183112356,
+      "flags": [],
+      "name": "rex_sub_821FA6A4"
+    },
+    {
+      "address": 2183113100,
+      "flags": [],
+      "name": "rex_sub_821FA98C"
+    },
+    {
+      "address": 2183135180,
+      "flags": [],
+      "name": "rex_sub_821FFFCC"
+    },
+    {
+      "address": 2183135300,
+      "flags": [],
+      "name": "rex_sub_82200044"
+    },
+    {
+      "address": 2183135492,
+      "flags": [],
+      "name": "rex_sub_82200104"
+    },
+    {
+      "address": 2183140792,
+      "flags": []
+    },
+    {
+      "address": 2183141264,
+      "flags": [],
+      "name": "rex_sub_82201790"
+    },
+    {
+      "address": 2183144016,
+      "flags": [],
+      "name": "rex_sub_82202250"
+    },
+    {
+      "address": 2183204552,
+      "flags": [],
+      "name": "rex_sub_82210EC8"
+    },
+    {
+      "address": 2183204768,
+      "flags": [],
+      "name": "rex_sub_82210FA0"
+    },
+    {
+      "address": 2183204944,
+      "flags": [],
+      "name": "rex_sub_82211050"
+    },
+    {
+      "address": 2183351736,
+      "flags": [],
+      "name": "rex_sub_82234DB8"
+    },
+    {
+      "address": 2183351744,
+      "flags": [],
+      "name": "rex_sub_82234DC0"
+    },
+    {
+      "address": 2183351808,
+      "flags": [],
+      "name": "rex_sub_82234E00"
+    },
+    {
+      "address": 2183352584,
+      "flags": [],
+      "name": "rex_sub_82235108"
+    },
+    {
+      "address": 2183390848,
+      "flags": [],
+      "name": "rex_sub_8223E680"
+    },
+    {
+      "address": 2183403544,
+      "flags": [],
+      "name": "rex_sub_82241818"
+    },
+    {
+      "address": 2183403952,
+      "flags": [],
+      "name": "rex_sub_822419B0"
+    },
+    {
+      "address": 2183448216,
+      "flags": [],
+      "name": "rex_sub_8224C698"
+    },
+    {
+      "address": 2183448456,
+      "flags": [],
+      "name": "rex_sub_8224C788"
+    },
+    {
+      "address": 2183479880,
+      "flags": [],
+      "name": "rex_sub_82254248"
+    },
+    {
+      "address": 2183479884,
+      "flags": [],
+      "name": "rex_sub_8225424C"
+    },
+    {
+      "address": 2183552944,
+      "flags": [],
+      "name": "rex_sub_82265FB0"
+    },
+    {
+      "address": 2183558744,
+      "flags": [],
+      "name": "rex_sub_82267658"
+    },
+    {
+      "address": 2183587296,
+      "flags": [],
+      "name": "rex_sub_8226E5E0"
+    },
+    {
+      "address": 2183602488,
+      "flags": [],
+      "name": "rex_sub_82272138"
+    },
+    {
+      "address": 2183603536,
+      "flags": [],
+      "name": "rex_sub_82272550"
+    },
+    {
+      "address": 2183603816,
+      "flags": []
+    },
+    {
+      "address": 2183741768,
+      "flags": [],
+      "name": "rex_sub_82294148"
+    },
+    {
+      "address": 2183781368,
+      "flags": [],
+      "name": "rex_sub_8229DBF8"
+    },
+    {
+      "address": 2183800736,
+      "flags": [],
+      "name": "rex_sub_822A27A0"
+    },
+    {
+      "address": 2183832160,
+      "flags": [],
+      "name": "rex_sub_822AA260"
+    },
+    {
+      "address": 2183841272,
+      "flags": [],
+      "name": "rex_sub_822AC5F8"
+    },
+    {
+      "address": 2183881648,
+      "flags": [],
+      "name": "rex_sub_822B63B0"
+    },
+    {
+      "address": 2183908792,
+      "flags": [],
+      "name": "rex_sub_822BCDB8"
+    },
+    {
+      "address": 2183934064,
+      "flags": [],
+      "name": "rex_sub_822C3070"
+    },
+    {
+      "address": 2183942080,
+      "flags": [],
+      "name": "rex_sub_822C4FC0"
+    },
+    {
+      "address": 2184052424,
+      "flags": [],
+      "name": "rex_sub_822DFEC8"
+    },
+    {
+      "address": 2184223880,
+      "flags": [],
+      "name": "rex_sub_82309C88"
+    },
+    {
+      "address": 2184225600,
+      "flags": [],
+      "name": "gracemeria_fn_8230a340"
+    },
+    {
+      "address": 2184296944,
+      "flags": [],
+      "name": "rex_sub_8231B9F0"
+    },
+    {
+      "address": 2184298480,
+      "flags": [],
+      "name": "rex_sub_8231BFF0"
+    },
+    {
+      "address": 2184298872,
+      "flags": [],
+      "name": "rex_sub_8231C178"
+    },
+    {
+      "address": 2184300256,
+      "flags": [],
+      "name": "rex_sub_8231C6E0"
+    },
+    {
+      "address": 2184300720,
+      "flags": [],
+      "name": "rex_sub_8231C8B0"
+    },
+    {
+      "address": 2184323840,
+      "flags": []
+    },
+    {
+      "address": 2184323888,
+      "flags": []
+    },
+    {
+      "address": 2184323904,
+      "flags": []
+    },
+    {
+      "address": 2184333272,
+      "flags": [],
+      "name": "rex_sub_823247D8"
+    },
+    {
+      "address": 2184390336,
+      "flags": [],
+      "name": "rex_sub_823326C0"
+    },
+    {
+      "address": 2184392232,
+      "flags": [],
+      "name": "rex_sub_82332E28"
+    },
+    {
+      "address": 2184392576,
+      "flags": [],
+      "name": "rex_sub_82332F80"
+    },
+    {
+      "address": 2184418088,
+      "flags": [],
+      "name": "rex_sub_82339328"
+    },
+    {
+      "address": 2184419200,
+      "flags": [],
+      "name": "rex_sub_82339780"
+    },
+    {
+      "address": 2184420832,
+      "flags": [],
+      "name": "rex_sub_82339DE0"
+    },
+    {
+      "address": 2184423896,
+      "flags": [],
+      "name": "rex_sub_8233A9D8"
+    },
+    {
+      "address": 2184426352,
+      "flags": [],
+      "name": "rex_sub_8233B370"
+    },
+    {
+      "address": 2184427296,
+      "flags": [],
+      "name": "rex_sub_8233B720"
+    },
+    {
+      "address": 2184427904,
+      "flags": [],
+      "name": "rex_sub_8233B980"
+    },
+    {
+      "address": 2184430376,
+      "flags": [],
+      "name": "rex_sub_8233C328"
+    },
+    {
+      "address": 2184432456,
+      "flags": [],
+      "name": "rex_sub_8233CB48"
+    },
+    {
+      "address": 2184432528,
+      "flags": [],
+      "name": "rex_sub_8233CB90"
+    },
+    {
+      "address": 2184432600,
+      "flags": [],
+      "name": "rex_sub_8233CBD8"
+    },
+    {
+      "address": 2184433048,
+      "flags": [],
+      "name": "rex_sub_8233CD98"
+    },
+    {
+      "address": 2184433296,
+      "flags": [],
+      "name": "rex_sub_8233CE90"
+    },
+    {
+      "address": 2184433840,
+      "flags": [],
+      "name": "rex_sub_8233D0B0"
+    },
+    {
+      "address": 2184434608,
+      "flags": [],
+      "name": "rex_sub_8233D3B0"
+    },
+    {
+      "address": 2184436088,
+      "flags": [],
+      "name": "rex_sub_8233D978"
+    },
+    {
+      "address": 2184438216,
+      "flags": [],
+      "name": "rex_sub_8233E1C8"
+    },
+    {
+      "address": 2184446288,
+      "flags": [],
+      "name": "rex_sub_82340150"
+    },
+    {
+      "address": 2184446696,
+      "flags": [],
+      "name": "rex_sub_823402E8"
+    },
+    {
+      "address": 2184446848,
+      "flags": [],
+      "name": "rex_sub_82340380"
+    },
+    {
+      "address": 2184447424,
+      "flags": [],
+      "name": "rex_sub_823405C0"
+    },
+    {
+      "address": 2184447480,
+      "flags": [],
+      "name": "rex_sub_823405F8"
+    },
+    {
+      "address": 2184447568,
+      "flags": [],
+      "name": "rex_sub_82340650"
+    },
+    {
+      "address": 2184447864,
+      "flags": [],
+      "name": "rex_sub_82340778"
+    },
+    {
+      "address": 2184449992,
+      "flags": [],
+      "name": "rex_sub_82340FC8"
+    },
+    {
+      "address": 2184457312,
+      "flags": [],
+      "name": "rex_sub_82342C60"
+    },
+    {
+      "address": 2184457904,
+      "flags": [],
+      "name": "rex_sub_82342EB0"
+    },
+    {
+      "address": 2184457968,
+      "flags": [],
+      "name": "rex_sub_82342EF0"
+    },
+    {
+      "address": 2184459176,
+      "flags": [],
+      "name": "rex_sub_823433A8"
+    },
+    {
+      "address": 2184459256,
+      "flags": [],
+      "name": "rex_sub_823433F8"
+    },
+    {
+      "address": 2184459344,
+      "flags": [],
+      "name": "rex_sub_82343450"
+    },
+    {
+      "address": 2184459416,
+      "flags": [],
+      "name": "rex_sub_82343498"
+    },
+    {
+      "address": 2184467040,
+      "flags": [],
+      "name": "rex_sub_82345260"
+    },
+    {
+      "address": 2184467432,
+      "flags": [],
+      "name": "rex_sub_823453E8"
+    },
+    {
+      "address": 2184470472,
+      "flags": [],
+      "name": "rex_sub_82345FC8"
+    },
+    {
+      "address": 2184476808,
+      "flags": [],
+      "name": "rex_sub_82347888"
+    },
+    {
+      "address": 2184480176,
+      "flags": [],
+      "name": "rex_sub_823485B0"
+    },
+    {
+      "address": 2184480544,
+      "flags": [],
+      "name": "rex_sub_82348720"
+    },
+    {
+      "address": 2184483248,
+      "flags": [],
+      "name": "rex_sub_823491B0"
+    },
+    {
+      "address": 2184483328,
+      "flags": [],
+      "name": "rex_sub_82349200"
+    },
+    {
+      "address": 2184488560,
+      "flags": [],
+      "name": "rex_sub_8234A670"
+    },
+    {
+      "address": 2184488632,
+      "flags": [],
+      "name": "rex_sub_8234A6B8"
+    },
+    {
+      "address": 2184492696,
+      "flags": [],
+      "name": "rex_sub_8234B698"
+    },
+    {
+      "address": 2184511200,
+      "flags": [],
+      "name": "rex_sub_8234FEE0"
+    },
+    {
+      "address": 2184511768,
+      "flags": [],
+      "name": "rex_sub_82350118"
+    },
+    {
+      "address": 2184512584,
+      "flags": [],
+      "name": "rex_sub_82350448"
+    },
+    {
+      "address": 2184530680,
+      "flags": [],
+      "name": "rex_sub_82354AF8"
+    },
+    {
+      "address": 2184531376,
+      "flags": [],
+      "name": "rex_sub_82354DB0"
+    },
+    {
+      "address": 2184533160,
+      "flags": [],
+      "name": "rex_sub_823554A8"
+    },
+    {
+      "address": 2184534136,
+      "flags": [],
+      "name": "rex_sub_82355878"
+    },
+    {
+      "address": 2184534264,
+      "flags": [],
+      "name": "rex_sub_823558F8"
+    },
+    {
+      "address": 2184535520,
+      "flags": [],
+      "name": "rex_sub_82355DE0"
+    },
+    {
+      "address": 2184536016,
+      "flags": [],
+      "name": "rex_sub_82355FD0"
+    },
+    {
+      "address": 2184536672,
+      "flags": [],
+      "name": "rex_sub_82356260"
+    },
+    {
+      "address": 2184542000,
+      "flags": [],
+      "name": "rex_sub_82357730"
+    },
+    {
+      "address": 2184581628,
+      "flags": [],
+      "name": "rex_sub_823611FC"
+    },
+    {
+      "address": 2184581908,
+      "flags": [],
+      "name": "rex_sub_82361314"
+    },
+    {
+      "address": 2184599784,
+      "flags": [],
+      "name": "rex_sub_823658E8"
+    },
+    {
+      "address": 2184600048,
+      "flags": [],
+      "name": "rex_sub_823659F0"
+    },
+    {
+      "address": 2184600712,
+      "flags": [],
+      "name": "rex_sub_82365C88"
+    },
+    {
+      "address": 2184605336,
+      "flags": [],
+      "name": "rex_sub_82366E98"
+    },
+    {
+      "address": 2184605520,
+      "flags": [],
+      "name": "rex_sub_82366F50"
+    },
+    {
+      "address": 2184605768,
+      "flags": [],
+      "name": "rex_sub_82367048"
+    },
+    {
+      "address": 2184605896,
+      "flags": [],
+      "name": "rex_sub_823670C8"
+    },
+    {
+      "address": 2184606224,
+      "flags": [],
+      "name": "rex_sub_82367210"
+    },
+    {
+      "address": 2184606304,
+      "flags": [],
+      "name": "rex_sub_82367260"
+    },
+    {
+      "address": 2184606384,
+      "flags": [],
+      "name": "rex_sub_823672B0"
+    },
+    {
+      "address": 2184606464,
+      "flags": [],
+      "name": "rex_sub_82367300"
+    },
+    {
+      "address": 2184607112,
+      "flags": [],
+      "name": "rex_sub_82367588"
+    },
+    {
+      "address": 2184608472,
+      "flags": [],
+      "name": "rex_sub_82367AD8"
+    },
+    {
+      "address": 2184608480,
+      "flags": [],
+      "name": "rex_sub_82367AE0"
+    },
+    {
+      "address": 2184608488,
+      "flags": [],
+      "name": "rex_sub_82367AE8"
+    },
+    {
+      "address": 2184610976,
+      "flags": [],
+      "name": "rex_sub_823684A0"
+    },
+    {
+      "address": 2184611536,
+      "flags": [],
+      "name": "rex_sub_823686D0"
+    },
+    {
+      "address": 2184611656,
+      "flags": [],
+      "name": "rex_sub_82368748"
+    },
+    {
+      "address": 2184621872,
+      "flags": [],
+      "name": "rex_sub_8236AF30"
+    },
+    {
+      "address": 2184626656,
+      "flags": [],
+      "name": "rex_sub_8236C1E0"
+    },
+    {
+      "address": 2184626720,
+      "flags": [],
+      "name": "rex_sub_8236C220"
+    },
+    {
+      "address": 2184627144,
+      "flags": [],
+      "name": "rex_sub_8236C3C8"
+    },
+    {
+      "address": 2184627208,
+      "flags": [],
+      "name": "rex_sub_8236C408"
+    },
+    {
+      "address": 2184627968,
+      "flags": [],
+      "name": "rex_sub_8236C700"
+    },
+    {
+      "address": 2184636360,
+      "flags": [],
+      "name": "rex_sub_8236E7C8"
+    },
+    {
+      "address": 2184636912,
+      "flags": [],
+      "name": "rex_sub_8236E9F0"
+    },
+    {
+      "address": 2184637296,
+      "flags": [],
+      "name": "rex_sub_8236EB70"
+    },
+    {
+      "address": 2184637520,
+      "flags": [],
+      "name": "rex_sub_8236EC50"
+    },
+    {
+      "address": 2184640152,
+      "flags": [],
+      "name": "rex_sub_8236F698"
+    },
+    {
+      "address": 2184650712,
+      "flags": [],
+      "name": "rex_sub_82371FD8"
+    },
+    {
+      "address": 2184652816,
+      "flags": [],
+      "name": "rex_sub_82372810"
+    },
+    {
+      "address": 2184653304,
+      "flags": [],
+      "name": "rex_sub_823729F8"
+    },
+    {
+      "address": 2184653488,
+      "flags": [],
+      "name": "rex_sub_82372AB0"
+    },
+    {
+      "address": 2184653552,
+      "flags": [],
+      "name": "rex_sub_82372AF0"
+    },
+    {
+      "address": 2184659432,
+      "flags": [],
+      "name": "rex_sub_823741E8"
+    },
+    {
+      "address": 2184659704,
+      "flags": [],
+      "name": "rex_sub_823742F8"
+    },
+    {
+      "address": 2184661336,
+      "flags": [],
+      "name": "rex_sub_82374958"
+    },
+    {
+      "address": 2184663696,
+      "flags": [],
+      "name": "rex_sub_82375290"
+    },
+    {
+      "address": 2184663928,
+      "flags": [],
+      "name": "rex_sub_82375378"
+    },
+    {
+      "address": 2184664944,
+      "flags": [],
+      "name": "rex_sub_82375770"
+    },
+    {
+      "address": 2184668624,
+      "flags": [],
+      "name": "rex_sub_823765D0"
+    },
+    {
+      "address": 2184681784,
+      "flags": [],
+      "name": "rex_sub_82379938"
+    },
+    {
+      "address": 2184681944,
+      "flags": [],
+      "name": "rex_sub_823799D8"
+    },
+    {
+      "address": 2184682072,
+      "flags": [],
+      "name": "rex_sub_82379A58"
+    },
+    {
+      "address": 2184683784,
+      "flags": [],
+      "name": "rex_sub_8237A108"
+    },
+    {
+      "address": 2184683792,
+      "flags": [],
+      "name": "rex_sub_8237A110"
+    },
+    {
+      "address": 2184684688,
+      "flags": [],
+      "name": "rex_sub_8237A490"
+    },
+    {
+      "address": 2184684888,
+      "flags": [],
+      "name": "rex_sub_8237A558"
+    },
+    {
+      "address": 2184685008,
+      "flags": [],
+      "name": "rex_sub_8237A5D0"
+    },
+    {
+      "address": 2184685128,
+      "flags": [],
+      "name": "rex_sub_8237A648"
+    },
+    {
+      "address": 2184685136,
+      "flags": [],
+      "name": "rex_sub_8237A650"
+    },
+    {
+      "address": 2184685192,
+      "flags": [],
+      "name": "rex_sub_8237A688"
+    },
+    {
+      "address": 2184685304,
+      "flags": [],
+      "name": "rex_sub_8237A6F8"
+    },
+    {
+      "address": 2184685392,
+      "flags": [],
+      "name": "rex_sub_8237A750"
+    },
+    {
+      "address": 2184685432,
+      "flags": [],
+      "name": "rex_sub_8237A778"
+    },
+    {
+      "address": 2184685464,
+      "flags": [],
+      "name": "rex_sub_8237A798"
+    },
+    {
+      "address": 2184711400,
+      "flags": [],
+      "name": "rex_sub_82380CE8"
+    },
+    {
+      "address": 2184712992,
+      "flags": [],
+      "name": "rex_sub_82381320"
+    },
+    {
+      "address": 2184717560,
+      "flags": [],
+      "name": "rex_sub_823824F8"
+    },
+    {
+      "address": 2184720320,
+      "flags": [],
+      "name": "rex_sub_82382FC0"
+    },
+    {
+      "address": 2184720472,
+      "flags": [],
+      "name": "rex_sub_82383058"
+    },
+    {
+      "address": 2184735824,
+      "flags": [],
+      "name": "rex_sub_82386C50"
+    },
+    {
+      "address": 2184743624,
+      "flags": [],
+      "name": "rex_sub_82388AC8"
+    },
+    {
+      "address": 2184743632,
+      "flags": [],
+      "name": "rex_sub_82388AD0"
+    },
+    {
+      "address": 2184755320,
+      "flags": [],
+      "name": "rex_sub_8238B878"
+    },
+    {
+      "address": 2184762424,
+      "flags": [],
+      "name": "rex_sub_8238D438"
+    },
+    {
+      "address": 2184767424,
+      "flags": [],
+      "name": "rex_sub_8238E7C0"
+    },
+    {
+      "address": 2184768736,
+      "flags": [],
+      "name": "rex_sub_8238ECE0"
+    },
+    {
+      "address": 2184770592,
+      "flags": [],
+      "name": "rex_sub_8238F420"
+    },
+    {
+      "address": 2184776472,
+      "flags": [],
+      "name": "rex_sub_82390B18"
+    },
+    {
+      "address": 2184866112,
+      "flags": [],
+      "name": "rex_sub_823A6940"
+    },
+    {
+      "address": 2184908416,
+      "flags": [],
+      "name": "rex_sub_823B0E80"
+    },
+    {
+      "address": 2184912984,
+      "flags": [],
+      "name": "rex_sub_823B2058"
+    },
+    {
+      "address": 2184923248,
+      "flags": [],
+      "name": "rex_sub_823B4870"
+    },
+    {
+      "address": 2184938744,
+      "flags": [],
+      "name": "rex_sub_823B84F8"
+    },
+    {
+      "address": 2184938840,
+      "flags": [],
+      "name": "rex_sub_823B8558"
+    },
+    {
+      "address": 2184938960,
+      "flags": [],
+      "name": "rex_sub_823B85D0"
+    },
+    {
+      "address": 2185012560,
+      "flags": [],
+      "name": "rex_sub_823CA550"
+    },
+    {
+      "address": 2185012880,
+      "flags": [],
+      "name": "rex_sub_823CA690"
+    },
+    {
+      "address": 2185014688,
+      "flags": [],
+      "name": "rex_sub_823CADA0"
+    },
+    {
+      "address": 2185014992,
+      "flags": [],
+      "name": "rex_sub_823CAED0"
+    },
+    {
+      "address": 2185018440,
+      "flags": [],
+      "name": "rex_sub_823CBC48"
+    },
+    {
+      "address": 2185028832,
+      "flags": [],
+      "name": "rex_sub_823CE4E0"
+    },
+    {
+      "address": 2185029256,
+      "flags": [],
+      "name": "rex_sub_823CE688"
+    },
+    {
+      "address": 2185030656,
+      "flags": [],
+      "name": "rex_sub_823CEC00"
+    },
+    {
+      "address": 2185031592,
+      "flags": [],
+      "name": "rex_sub_823CEFA8"
+    },
+    {
+      "address": 2185034016,
+      "flags": [],
+      "name": "rex_sub_823CF920"
+    },
+    {
+      "address": 2185034032,
+      "flags": [],
+      "name": "rex_sub_823CF930"
+    },
+    {
+      "address": 2185034120,
+      "flags": [],
+      "name": "rex_sub_823CF988"
+    },
+    {
+      "address": 2185034208,
+      "flags": [],
+      "name": "rex_sub_823CF9E0"
+    },
+    {
+      "address": 2185034376,
+      "flags": [],
+      "name": "rex_sub_823CFA88"
+    },
+    {
+      "address": 2185034640,
+      "flags": [],
+      "name": "rex_sub_823CFB90"
+    },
+    {
+      "address": 2185035112,
+      "flags": [],
+      "name": "rex_sub_823CFD68"
+    },
+    {
+      "address": 2185056704,
+      "flags": [],
+      "name": "rex_sub_823D51C0"
+    },
+    {
+      "address": 2185056728,
+      "flags": [],
+      "name": "rex_sub_823D51D8"
+    }
+  ],
+  "hooks": [
+    {
+      "address": 2183064548,
+      "description": "midasm_hook jump_address_on_true=0x821eebec",
+      "nativeReplacementIdentity": "ac6FlipIntervalHook"
+    },
+    {
+      "address": 2183068984,
+      "description": "midasm_hook registers=[r29]",
+      "nativeReplacementIdentity": "ac6DeltaDivisorHook"
+    },
+    {
+      "address": 2183069044,
+      "description": "midasm_hook registers=[r8,r10,r29,r30]",
+      "nativeReplacementIdentity": "ac6DeltaPrecisionHook"
+    },
+    {
+      "address": 2184204096,
+      "description": "midasm_hook registers=[f9]",
+      "nativeReplacementIdentity": "ac6PathDropHook"
+    },
+    {
+      "address": 2183071224,
+      "description": "midasm_hook registers=[r31]",
+      "nativeReplacementIdentity": "ac6PresentTimingHook"
+    },
+    {
+      "address": 2183069488,
+      "description": "midasm_hook registers=[r10] jump_address_on_true=0x821eff74",
+      "nativeReplacementIdentity": "ac6PresentIntervalHook"
+    },
+    {
+      "address": 2182628448,
+      "description": "midasm_hook registers=[r3]",
+      "nativeReplacementIdentity": "ac6CinematicTickHook"
+    },
+    {
+      "address": 2182633208,
+      "description": "midasm_hook registers=[r3]",
+      "nativeReplacementIdentity": "ac6CinematicTickHook"
+    },
+    {
+      "address": 2184461944,
+      "description": "midasm_hook registers=[r28,ctr]",
+      "nativeReplacementIdentity": "ac6PacWorkerDispatchHook"
+    },
+    {
+      "address": 2184468064,
+      "description": "midasm_hook registers=[r3,r4,r5,r6,ctr]",
+      "nativeReplacementIdentity": "ac6PacWorkerL2DispatchHook"
+    },
+    {
+      "address": 2184468352,
+      "description": "midasm_hook registers=[r3,r4,r5,r6,ctr]",
+      "nativeReplacementIdentity": "ac6PacWorkerL2DispatchHook"
+    },
+    {
+      "address": 2184468676,
+      "description": "midasm_hook registers=[r3,r4,r5,r6,ctr]",
+      "nativeReplacementIdentity": "ac6PacWorkerL2DispatchHook"
+    },
+    {
+      "address": 2184469072,
+      "description": "midasm_hook registers=[r3,r4,r5,r6,ctr]",
+      "nativeReplacementIdentity": "ac6PacWorkerL2DispatchHook"
+    },
+    {
+      "address": 2184469360,
+      "description": "midasm_hook registers=[r3,r4,r5,r6,ctr]",
+      "nativeReplacementIdentity": "ac6PacWorkerL2DispatchHook"
+    },
+    {
+      "address": 2182925404,
+      "description": "midasm_hook registers=[r4,r10,r11,r31]",
+      "nativeReplacementIdentity": "ac6PacDecoderDumpHook"
+    },
+    {
+      "address": 2183984400,
+      "description": "midasm_hook registers=[r3]",
+      "nativeReplacementIdentity": "ac6PacCodecDispatchProbe"
+    },
+    {
+      "address": 2183983864,
+      "description": "midasm_hook registers=[r3]",
+      "nativeReplacementIdentity": "ac6PacMode1EntryProbe"
+    },
+    {
+      "address": 2183973712,
+      "description": "midasm_hook registers=[r3,r4,r5]",
+      "nativeReplacementIdentity": "ac6PacBitFetcherProbe"
+    },
+    {
+      "address": 2183981760,
+      "description": "midasm_hook registers=[r3,r4]",
+      "nativeReplacementIdentity": "ac6PacDynamicHeaderProbe"
+    },
+    {
+      "address": 2183977784,
+      "description": "midasm_hook registers=[r3]",
+      "nativeReplacementIdentity": "ac6PacTreeBuilderProbe"
+    },
+    {
+      "address": 2183975016,
+      "description": "midasm_hook registers=[r3]",
+      "nativeReplacementIdentity": "ac6PacBlockConsumerProbe"
+    },
+    {
+      "address": 2183976792,
+      "description": "midasm_hook registers=[r3]",
+      "nativeReplacementIdentity": "ac6PacBlockConsumerProbe"
+    },
+    {
+      "address": 2182954124,
+      "description": "midasm_hook registers=[r5]",
+      "kind": "instruction",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOp2",
+      "symbol": "ac6StorageOrderHookOp2"
+    },
+    {
+      "address": 2182954252,
+      "description": "midasm_hook registers=[r5]",
+      "kind": "instruction",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOp3",
+      "symbol": "ac6StorageOrderHookOp3"
+    },
+    {
+      "address": 2182954440,
+      "description": "midasm_hook registers=[r5]",
+      "kind": "instruction",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOp6",
+      "symbol": "ac6StorageOrderHookOp6"
+    },
+    {
+      "address": 2182954584,
+      "description": "midasm_hook registers=[r5]",
+      "kind": "instruction",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOp7",
+      "symbol": "ac6StorageOrderHookOp7"
+    },
+    {
+      "address": 2182954864,
+      "description": "midasm_hook registers=[r5]",
+      "kind": "instruction",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOpA",
+      "symbol": "ac6StorageOrderHookOpA"
+    },
+    {
+      "address": 2182955056,
+      "description": "midasm_hook registers=[r5]",
+      "kind": "instruction",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOpB",
+      "symbol": "ac6StorageOrderHookOpB"
+    },
+    {
+      "address": 2182955248,
+      "description": "midasm_hook registers=[r5]",
+      "kind": "instruction",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOpC",
+      "symbol": "ac6StorageOrderHookOpC"
+    },
+    {
+      "address": 2182903096,
+      "description": "midasm_hook registers=[r5]",
+      "kind": "instruction",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOpD",
+      "symbol": "ac6StorageOrderHookOpD"
+    },
+    {
+      "address": 2182909636,
+      "description": "midasm_hook registers=[r5]",
+      "kind": "instruction",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOp8",
+      "symbol": "ac6StorageOrderHookOp8"
+    },
+    {
+      "address": 2182909816,
+      "description": "midasm_hook registers=[r5]",
+      "kind": "instruction",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOp9",
+      "symbol": "ac6StorageOrderHookOp9"
+    },
+    {
+      "address": 2182910616,
+      "description": "midasm_hook registers=[r5]",
+      "kind": "instruction",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOp10",
+      "symbol": "ac6StorageOrderHookOp10"
+    },
+    {
+      "address": 2182896248,
+      "description": "midasm_hook registers=[r5,r29]",
+      "kind": "instruction",
+      "nativeReplacementIdentity": "ac6StorageOrderHookVar",
+      "symbol": "ac6StorageOrderHookVar"
+    },
+    {
+      "address": 2182957688,
+      "description": "JobPoolB::Submit entry: records the mode word each effect-manager job is submitted with",
+      "kind": "instruction",
+      "nativeReplacementIdentity": "ac6EffectModeSubmitHook",
+      "symbol": "ac6EffectModeSubmitHook"
+    },
+    {
+      "address": 2183869000,
+      "description": "Effect manager vtbl[+0x04] dispatcher entry: runs the job's submitted mode instead of re-reading the shared word",
+      "kind": "instruction",
+      "nativeReplacementIdentity": "ac6EffectModeDispatchHook",
+      "onTrue": "return",
+      "symbol": "ac6EffectModeDispatchHook"
+    },
+    {
+      "address": 2182628448,
+      "description": "CAce6DemoManager::Exec entry: runs Exec plus bounded catch-up ticks while the cutscene timeline trails its audio",
+      "kind": "instruction",
+      "nativeReplacementIdentity": "ac6CutsceneResyncHookDD",
+      "onTrue": "return",
+      "symbol": "ac6CutsceneResyncHookDD"
+    },
+    {
+      "address": 2182633208,
+      "description": "CX360DemoManagerEM::Exec entry: runs Exec plus bounded catch-up ticks while the cutscene timeline trails its audio",
+      "kind": "instruction",
+      "nativeReplacementIdentity": "ac6CutsceneResyncHookEM",
+      "onTrue": "return",
+      "symbol": "ac6CutsceneResyncHookEM"
+    }
+  ],
+  "identity": {
+    "baseVersion": 0,
+    "effectiveImageHash": "464905ef5d5a80d8b52697f72f16e8c93c4b81ba",
+    "effectiveVersion": 0,
+    "mediaId": 1394356414,
+    "titleId": 1313671121,
+    "titleUpdateApplied": false
+  },
+  "indirectBranches": [],
+  "indirectCalls": [
+    {
+      "callsite": 2184692584,
+      "targets": []
+    },
+    {
+      "callsite": 2184690248,
+      "targets": []
+    }
+  ],
+  "instructionPatterns": [],
+  "moduleName": "usa-retail-tu0",
+  "nativeReplacements": [
+    {
+      "guestAddress": 2183110160,
+      "kind": "HeapAllocate",
+      "sourceName": "RtlAllocateHeap"
+    },
+    {
+      "guestAddress": 2183112440,
+      "kind": "HeapFree",
+      "sourceName": "RtlFreeHeap"
+    },
+    {
+      "guestAddress": 2183106728,
+      "kind": "HeapSize",
+      "sourceName": "RtlSizeHeap"
+    },
+    {
+      "guestAddress": 2183113184,
+      "kind": "HeapReAllocate",
+      "sourceName": "RtlReAllocateHeap"
+    },
+    {
+      "guestAddress": 2184720152,
+      "kind": "Memcpy",
+      "sourceName": "memcpy"
+    },
+    {
+      "guestAddress": 2184722544,
+      "kind": "Memmove",
+      "sourceName": "memmove"
+    },
+    {
+      "guestAddress": 2184720624,
+      "kind": "Memset",
+      "sourceName": "memset"
+    },
+    {
+      "guestAddress": 2184718992,
+      "kind": "Unsupported",
+      "sourceName": "XMemCpy"
+    },
+    {
+      "guestAddress": 2184722736,
+      "kind": "Strncmp",
+      "sourceName": "strncmp"
+    },
+    {
+      "guestAddress": 2184717168,
+      "kind": "Strncpy",
+      "sourceName": "strncpy"
+    },
+    {
+      "guestAddress": 2184716688,
+      "kind": "Strchr",
+      "sourceName": "strchr"
+    },
+    {
+      "guestAddress": 2184717600,
+      "kind": "Strstr",
+      "sourceName": "strstr"
+    },
+    {
+      "guestAddress": 2184767504,
+      "kind": "Strrchr",
+      "sourceName": "strrchr"
+    },
+    {
+      "guestAddress": 2184716752,
+      "kind": "StrcpyChecked",
+      "sourceName": "strcpy_s"
+    },
+    {
+      "guestAddress": 2184715744,
+      "kind": "MemcpyChecked",
+      "sourceName": "memcpy_s"
+    },
+    {
+      "guestAddress": 2184710640,
+      "kind": "MemmoveChecked",
+      "sourceName": "memmove_s"
+    }
+  ],
+  "patches": [],
+  "regions": [],
+  "runtimeHelpers": [
+    {
+      "address": 2185012880,
+      "kind": "LongJmp"
+    },
+    {
+      "address": 2185013680,
+      "kind": "SetJmp"
+    },
+    {
+      "address": 2184718848,
+      "kind": "SaveGprLr",
+      "registerStart": 22
+    },
+    {
+      "address": 2184718896,
+      "kind": "RestoreGprLr",
+      "registerStart": 14
+    }
+  ],
+  "schemaVersion": 2,
+  "switches": [],
+  "symbols": []
+}

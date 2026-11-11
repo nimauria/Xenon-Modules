@@ -1,0 +1,450 @@
+{
+  "schema": "project-gracemeria.hook-classification",
+  "version": 1,
+  "revision": "ac6-us-retail-531c30be-tu0",
+  "baselinePolicy": "Hooks run through Xenon's instruction-hook contract (hint kind \"instruction\"), implemented in revisions/usa-retail-tu0/hooks/. Two classes are enabled: base-executable fixes - changes the official title update makes, which this base executable lacks - and host-timing fixes - races and clock drift the 360's fixed cores and steady 30 fps hid, which a PC host exposes. Optional enhancements and research probes stay disabled metadata.",
+  "hooks": [
+    {
+      "address": 2183064548,
+      "name": "ac6FlipIntervalHook",
+      "registers": [],
+      "jumpAddressOnTrue": 2183064556,
+      "classification": "optional-enhancement",
+      "enabled": false,
+      "rationale": "Frame pacing/60 FPS behavior from AC6_recomp; requires a stable Xenon title-hook ABI before reimplementation"
+    },
+    {
+      "address": 2183068984,
+      "name": "ac6DeltaDivisorHook",
+      "registers": [
+        "r29"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "optional-enhancement",
+      "enabled": false,
+      "rationale": "Frame pacing/60 FPS behavior from AC6_recomp; requires a stable Xenon title-hook ABI before reimplementation"
+    },
+    {
+      "address": 2183069044,
+      "name": "ac6DeltaPrecisionHook",
+      "registers": [
+        "r8",
+        "r10",
+        "r29",
+        "r30"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "optional-enhancement",
+      "enabled": false,
+      "rationale": "Frame pacing/60 FPS behavior from AC6_recomp; requires a stable Xenon title-hook ABI before reimplementation"
+    },
+    {
+      "address": 2184204096,
+      "name": "ac6PathDropHook",
+      "registers": [
+        "f9"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "compatibility-review",
+      "enabled": false,
+      "rationale": "Path-drop behavior requires real-title validation against Xenon filesystem before any patch is enabled"
+    },
+    {
+      "address": 2183071224,
+      "name": "ac6PresentTimingHook",
+      "registers": [
+        "r31"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "optional-enhancement",
+      "enabled": false,
+      "rationale": "Frame pacing/60 FPS behavior from AC6_recomp; requires a stable Xenon title-hook ABI before reimplementation"
+    },
+    {
+      "address": 2183069488,
+      "name": "ac6PresentIntervalHook",
+      "registers": [
+        "r10"
+      ],
+      "jumpAddressOnTrue": 2183069556,
+      "classification": "optional-enhancement",
+      "enabled": false,
+      "rationale": "Frame pacing/60 FPS behavior from AC6_recomp; requires a stable Xenon title-hook ABI before reimplementation"
+    },
+    {
+      "address": 2182628448,
+      "name": "ac6CinematicTickHook",
+      "registers": [
+        "r3"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "optional-enhancement",
+      "enabled": false,
+      "rationale": "Cutscene audio-master resync; ReXGlue implementation depends on its audio/timing plumbing"
+    },
+    {
+      "address": 2182633208,
+      "name": "ac6CinematicTickHook",
+      "registers": [
+        "r3"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "optional-enhancement",
+      "enabled": false,
+      "rationale": "Cutscene audio-master resync; ReXGlue implementation depends on its audio/timing plumbing"
+    },
+    {
+      "address": 2184461944,
+      "name": "ac6PacWorkerDispatchHook",
+      "registers": [
+        "r28",
+        "ctr"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2184468064,
+      "name": "ac6PacWorkerL2DispatchHook",
+      "registers": [
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "ctr"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2184468352,
+      "name": "ac6PacWorkerL2DispatchHook",
+      "registers": [
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "ctr"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2184468676,
+      "name": "ac6PacWorkerL2DispatchHook",
+      "registers": [
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "ctr"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2184469072,
+      "name": "ac6PacWorkerL2DispatchHook",
+      "registers": [
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "ctr"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2184469360,
+      "name": "ac6PacWorkerL2DispatchHook",
+      "registers": [
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "ctr"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2182925404,
+      "name": "ac6PacDecoderDumpHook",
+      "registers": [
+        "r4",
+        "r10",
+        "r11",
+        "r31"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2183984400,
+      "name": "ac6PacCodecDispatchProbe",
+      "registers": [
+        "r3"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2183983864,
+      "name": "ac6PacMode1EntryProbe",
+      "registers": [
+        "r3"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2183973712,
+      "name": "ac6PacBitFetcherProbe",
+      "registers": [
+        "r3",
+        "r4",
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2183981760,
+      "name": "ac6PacDynamicHeaderProbe",
+      "registers": [
+        "r3",
+        "r4"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2183977784,
+      "name": "ac6PacTreeBuilderProbe",
+      "registers": [
+        "r3"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2183975016,
+      "name": "ac6PacBlockConsumerProbe",
+      "registers": [
+        "r3"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2183976792,
+      "name": "ac6PacBlockConsumerProbe",
+      "registers": [
+        "r3"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "research-only",
+      "enabled": false,
+      "rationale": "PAC reverse-engineering probe/dump; not production behavior"
+    },
+    {
+      "address": 2182954124,
+      "name": "ac6StorageOrderHookOp2",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "base-executable-fix",
+      "enabled": true,
+      "rationale": "The retail title update stores each storage job's operation code to [job+4] before JobPoolB::Submit; this base executable stores it after, so a fast pool-B worker can run a reused job with the previous operation. The hook applies the title update's ordering at this call site."
+    },
+    {
+      "address": 2182954252,
+      "name": "ac6StorageOrderHookOp3",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "base-executable-fix",
+      "enabled": true,
+      "rationale": "The retail title update stores each storage job's operation code to [job+4] before JobPoolB::Submit; this base executable stores it after, so a fast pool-B worker can run a reused job with the previous operation. The hook applies the title update's ordering at this call site."
+    },
+    {
+      "address": 2182954440,
+      "name": "ac6StorageOrderHookOp6",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "base-executable-fix",
+      "enabled": true,
+      "rationale": "The retail title update stores each storage job's operation code to [job+4] before JobPoolB::Submit; this base executable stores it after, so a fast pool-B worker can run a reused job with the previous operation. The hook applies the title update's ordering at this call site."
+    },
+    {
+      "address": 2182954584,
+      "name": "ac6StorageOrderHookOp7",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "base-executable-fix",
+      "enabled": true,
+      "rationale": "The retail title update stores each storage job's operation code to [job+4] before JobPoolB::Submit; this base executable stores it after, so a fast pool-B worker can run a reused job with the previous operation. The hook applies the title update's ordering at this call site."
+    },
+    {
+      "address": 2182954864,
+      "name": "ac6StorageOrderHookOpA",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "base-executable-fix",
+      "enabled": true,
+      "rationale": "The retail title update stores each storage job's operation code to [job+4] before JobPoolB::Submit; this base executable stores it after, so a fast pool-B worker can run a reused job with the previous operation. The hook applies the title update's ordering at this call site."
+    },
+    {
+      "address": 2182955056,
+      "name": "ac6StorageOrderHookOpB",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "base-executable-fix",
+      "enabled": true,
+      "rationale": "The retail title update stores each storage job's operation code to [job+4] before JobPoolB::Submit; this base executable stores it after, so a fast pool-B worker can run a reused job with the previous operation. The hook applies the title update's ordering at this call site."
+    },
+    {
+      "address": 2182955248,
+      "name": "ac6StorageOrderHookOpC",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "base-executable-fix",
+      "enabled": true,
+      "rationale": "The retail title update stores each storage job's operation code to [job+4] before JobPoolB::Submit; this base executable stores it after, so a fast pool-B worker can run a reused job with the previous operation. The hook applies the title update's ordering at this call site."
+    },
+    {
+      "address": 2182903096,
+      "name": "ac6StorageOrderHookOpD",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "base-executable-fix",
+      "enabled": true,
+      "rationale": "The retail title update stores each storage job's operation code to [job+4] before JobPoolB::Submit; this base executable stores it after, so a fast pool-B worker can run a reused job with the previous operation. The hook applies the title update's ordering at this call site."
+    },
+    {
+      "address": 2182909636,
+      "name": "ac6StorageOrderHookOp8",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "base-executable-fix",
+      "enabled": true,
+      "rationale": "The retail title update stores each storage job's operation code to [job+4] before JobPoolB::Submit; this base executable stores it after, so a fast pool-B worker can run a reused job with the previous operation. The hook applies the title update's ordering at this call site."
+    },
+    {
+      "address": 2182909816,
+      "name": "ac6StorageOrderHookOp9",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "base-executable-fix",
+      "enabled": true,
+      "rationale": "The retail title update stores each storage job's operation code to [job+4] before JobPoolB::Submit; this base executable stores it after, so a fast pool-B worker can run a reused job with the previous operation. The hook applies the title update's ordering at this call site."
+    },
+    {
+      "address": 2182910616,
+      "name": "ac6StorageOrderHookOp10",
+      "registers": [
+        "r5"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "base-executable-fix",
+      "enabled": true,
+      "rationale": "The retail title update stores each storage job's operation code to [job+4] before JobPoolB::Submit; this base executable stores it after, so a fast pool-B worker can run a reused job with the previous operation. The hook applies the title update's ordering at this call site."
+    },
+    {
+      "address": 2182896248,
+      "name": "ac6StorageOrderHookVar",
+      "registers": [
+        "r5",
+        "r29"
+      ],
+      "jumpAddressOnTrue": null,
+      "classification": "base-executable-fix",
+      "enabled": true,
+      "rationale": "The retail title update stores each storage job's operation code to [job+4] before JobPoolB::Submit; this base executable stores it after, so a fast pool-B worker can run a reused job with the previous operation. The hook applies the title update's ordering at this call site."
+    },
+    {
+      "address": 2182957688,
+      "name": "ac6EffectModeSubmitHook",
+      "registers": [],
+      "jumpAddressOnTrue": null,
+      "classification": "host-timing-fix",
+      "enabled": true,
+      "rationale": "The effect update and draw jobs share one plain mode word at [manager+0xA1E84] that the worker reads after submit; on a PC host a second submit can overwrite it before the first job reads it, so both jobs draw (one-frame doubled effects/clouds). This hook records the mode at submit time for ac6EffectModeDispatchHook."
+    },
+    {
+      "address": 2183869000,
+      "name": "ac6EffectModeDispatchHook",
+      "registers": [],
+      "jumpAddressOnTrue": null,
+      "onTrue": "return",
+      "classification": "host-timing-fix",
+      "enabled": true,
+      "rationale": "Dispatches each effect job from the mode recorded at its submit (update 0x822B2E20, 0x822B0848, or the class's draw at vtbl[+0x100]) and returns; a job with no record runs the original dispatcher."
+    },
+    {
+      "address": 2182628448,
+      "name": "ac6CutsceneResyncHookDD",
+      "registers": [],
+      "jumpAddressOnTrue": null,
+      "onTrue": "return",
+      "classification": "host-timing-fix",
+      "enabled": true,
+      "rationale": "The cutscene sequencer ticks once per rendered frame while its soundtrack follows the audio clock; render hitches on the PC host leave the picture permanently behind the sound. Audio stays master; the timeline catches up by at most 3 extra ticks per frame once 2 ticks behind."
+    },
+    {
+      "address": 2182633208,
+      "name": "ac6CutsceneResyncHookEM",
+      "registers": [],
+      "jumpAddressOnTrue": null,
+      "onTrue": "return",
+      "classification": "host-timing-fix",
+      "enabled": true,
+      "rationale": "Same resync for the in-mission story cutscene sequencer."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "xenon.development-project",
+  "version": 1,
+  "id": "org.nimauria.project-gears-2",
+  "payloadPath": null,
+  "files": [
+    "xenon-module.json",
+    "LICENSE"
+  ],
+  "preparationFiles": [
+    "xenon-analysis"
+  ]
+}

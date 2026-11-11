@@ -1,5 +1,6 @@
 # Package indexes verify exact committed bytes on every host.
 /games/** -text
+/development/** -text
 
 *.dll binary
 *.so binary

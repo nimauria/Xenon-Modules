@@ -1,0 +1,54 @@
+{
+  "schema": "xenon.game-module",
+  "schemaVersion": 1,
+  "id": "org.nimauria.project-gears-2",
+  "name": "Project Gears 2",
+  "type": "game",
+  "version": "0.1.0",
+  "description": "Gears of War 2 game module for Project Xenon. Project Gears 2 supplies revision-scoped analysis metadata and hook routines for each supported executable (xenon-analysis/); Xenon prepares the native module from the player's own disc and supplies the Xbox 360 runtime, XEX/title-update loader, content, input, audio and Xenos graphics systems.",
+  "regions": [
+    "PAL"
+  ],
+  "gameIds": [
+    "4D53082D"
+  ],
+  "runtimeDependency": "Project Xenon",
+  "renderer": "Automatic",
+  "capabilities": [
+    "game-identification",
+    "native-recompilation"
+  ],
+  "content": {
+    "identities": [
+      {
+        "titleId": "4D53082D",
+        "mediaIds": [
+          "51D281BE"
+        ],
+        "discNumber": 1
+      }
+    ],
+    "identityPolicy": "Fixed-address analysis knowledge is enabled only for verified revision profiles. Europe/Australia retail Media ID 51D281BE (executable version 0x00000007, effective image hash dc3ba9d7eae093ee688946352ef00fc2400f5c89) is the first profile. Its code is byte-identical to the US 0.0.0.5 disc executable COGBox targets (code SHA-1 eb8aedd4567c220176ae4e7d95c89f667a361387), so COGBox disc-build addresses apply unchanged; its Title Update 6 addresses do not."
+  },
+  "compatibility": {
+    "status": "development",
+    "realGameValidation": "requires-user-supplied-content"
+  },
+  "legal": {
+    "gameDataDistributed": false,
+    "requiresUserSuppliedGame": true
+  },
+  "titleUpdates": {
+    "owner": "Project Xenon XEX Loader V2",
+    "supportedEffectiveProfiles": [],
+    "knownUpdates": [
+      {
+        "label": "TU6",
+        "status": "effective-revision-profile-pending",
+        "note": "COGBox builds against the disc plus Title Update 6. A TU6 effective image needs its own revision profile here before any TU6-scoped address is used."
+      }
+    ],
+    "policy": "Xenon applies and validates XEXP data. Project Gears 2 enables fixed-address hints only for an effective executable with a verified revision profile."
+  },
+  "dlc": []
+}

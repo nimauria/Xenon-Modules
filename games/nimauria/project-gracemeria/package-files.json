@@ -1,8 +1,14 @@
 {
   "include": [
-    "xenon-module.json",
     "LICENSE",
-    "assets",
-    "xenon-analysis"
+    "xenon-analysis/manifest.json",
+    "xenon-analysis/revisions/464905ef5d5a80d8b52697f72f16e8c93c4b81ba/analysis.json",
+    "xenon-analysis/revisions/464905ef5d5a80d8b52697f72f16e8c93c4b81ba/hooks/ac6_cutscene_resync_hooks.cpp",
+    "xenon-analysis/revisions/464905ef5d5a80d8b52697f72f16e8c93c4b81ba/hooks/ac6_effect_mode_hooks.cpp",
+    "xenon-analysis/revisions/464905ef5d5a80d8b52697f72f16e8c93c4b81ba/hooks/ac6_guest_call.cpp",
+    "xenon-analysis/revisions/464905ef5d5a80d8b52697f72f16e8c93c4b81ba/hooks/ac6_storage_order_hooks.cpp",
+    "xenon-analysis/revisions/cca65debbbdf02863111cd9f8ea1fde1c2f34555/analysis.json",
+    "xenon-module.json",
+    "artwork.json"
   ]
 }

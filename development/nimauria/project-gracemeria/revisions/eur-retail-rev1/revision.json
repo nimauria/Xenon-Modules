@@ -1,0 +1,32 @@
+{
+  "schema": "project-gracemeria.revision",
+  "version": 1,
+  "id": "ac6-eur-retail-0379efb3-rev1",
+  "displayName": "Ace Combat 6 Europe Rev 1 (Media ID 0379EFB3)",
+  "identity": {
+    "titleId": "4E4D07D1",
+    "mediaIds": [
+      "0379EFB3"
+    ],
+    "discNumber": 1,
+    "effectiveXexSha1": null,
+    "xexVersion": null,
+    "effectiveImageHash": "cca65debbbdf02863111cd9f8ea1fde1c2f34555"
+  },
+  "status": "translated-from-usa-retail-tu0",
+  "analysisProfile": "analysis/hints.json",
+  "analysisProfileV2": "analysis/hints.v2.json",
+  "symbolReference": "analysis/legacy-symbols.csv",
+  "hookClassification": "analysis/hooks.json",
+  "nativeReplacementReference": "analysis/native-replacements.json",
+  "contentProfile": "content/content.json",
+  "notes": [
+    "Addresses are translated from usa-retail-tu0 by Xenon's hint-port: the two executables are aligned instruction by instruction (relocation fields ignored) and each address is verified against the instruction found there; entries outside the alignment are placed by their verified references.",
+    "Media ID 0379EFB3 only; another revision needs its own translated or analysed profile."
+  ],
+  "translatedFrom": {
+    "revision": "usa-retail-tu0",
+    "sourceImageHash": "464905ef5d5a80d8b52697f72f16e8c93c4b81ba",
+    "tool": "Xenon hint-port alignment"
+  }
+}

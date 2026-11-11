@@ -10,14 +10,9 @@
       "sha256": "65311524c3813d3624f03b8afad9efa5f75063c6029cbb4bb0c7204ec188de48"
     },
     {
-      "path": "assets/background.webp",
-      "size": 120772,
-      "sha256": "3d7b0af7af250215f66a4be4b904a104e5dc9e4b974504c4b266002ed8000f22"
-    },
-    {
-      "path": "assets/game-art.webp",
-      "size": 128040,
-      "sha256": "ee5aa4a003705a38450eb6a1be48e626a5189765fafd8574d50ee3fd09c48192"
+      "path": "artwork.json",
+      "size": 1199,
+      "sha256": "2be61d30fcb728eecd618e5b3ce32b87989d774c59f90ba7c73de22640c705d7"
     },
     {
       "path": "xenon-analysis/manifest.json",

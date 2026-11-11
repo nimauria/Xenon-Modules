@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Artwork provenance and redistribution records",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "version", "assets"],
+  "properties": {
+    "schema": { "const": "xenon.artwork" },
+    "version": { "const": 1 },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "role",
+          "creator",
+          "source",
+          "license",
+          "basis",
+          "redistribution",
+          "evidence",
+          "sha256",
+          "attribution"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "pattern": "^assets/[A-Za-z0-9][A-Za-z0-9._/-]*$"
+          },
+          "role": { "enum": ["cover", "hero", "other"] },
+          "creator": { "type": "string" },
+          "source": { "type": "string" },
+          "license": { "type": "string" },
+          "basis": {
+            "enum": ["original", "licensed", "permission", "unverified"]
+          },
+          "redistribution": {
+            "enum": ["permitted", "local-only", "unverified"]
+          },
+          "evidence": { "type": "string" },
+          "attribution": { "type": "string" },
+          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+          "localCopy": { "type": "string" }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": { "redistribution": { "const": "permitted" } }
+            },
+            "then": {
+              "properties": {
+                "basis": { "enum": ["original", "licensed", "permission"] },
+                "creator": { "minLength": 1 },
+                "source": { "minLength": 1 },
+                "license": { "minLength": 1 },
+                "evidence": { "minLength": 1 }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "migrationSpec": "Pasted text.txt sha256:77dd19b207874c5f3c4d40a294086d3df720bd7c83d5c4c70380d1a511484dae",
+  "xenonZip": "Xenon-Recomp.zip sha256:178a0d0cb1f444bc14c8f50a15b9a0ea23acb3b2146bb01c2d68ce2cf9b1169b",
+  "ac6RecompZip": "AC6_recomp-main.zip sha256:0fdcfd582aac3d1f4063224c439fafad2ec93f5dd8a026eef680b24badfc3262",
+  "generatedFromAc6Config": "ac6recomp_config.toml",
+  "legacyFunctions": 10527,
+  "indirectCallSites": 2,
+  "nativeReplacementCandidates": 16,
+  "midasmHooks": 34
+}

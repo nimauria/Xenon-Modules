@@ -1,0 +1,29 @@
+{
+  "schema": "project-gracemeria.revision",
+  "version": 1,
+  "id": "ac6-us-retail-531c30be-tu0",
+  "displayName": "Ace Combat 6 US retail (Media ID 531C30BE, base executable/TU0)",
+  "identity": {
+    "titleId": "4E4D07D1",
+    "mediaIds": [
+      "531C30BE"
+    ],
+    "discNumber": 1,
+    "effectiveXexSha1": null,
+    "xexVersion": null,
+    "effectiveImageHash": "464905ef5d5a80d8b52697f72f16e8c93c4b81ba"
+  },
+  "status": "source-migrated-effective-image-verified",
+  "analysisProfile": "analysis/hints.json",
+  "analysisProfileV2": "analysis/hints.v2.json",
+  "symbolReference": "analysis/legacy-symbols.csv",
+  "hookClassification": "analysis/hooks.json",
+  "nativeReplacementReference": "analysis/native-replacements.json",
+  "contentProfile": "content/content.json",
+  "notes": [
+    "Fixed guest addresses migrated from AC6_recomp are scoped to Media ID 531C30BE only.",
+    "The effective image hash (Xenon compute_effective_image_hash of the decrypted base executable) was read from a legally supplied default.xex on 2026-10-30; the exact XEX version is not recorded.",
+    "Title-update effective images require their own revision entry before these address-scoped hints may be reused.",
+    "analysisProfileV2 is xenon::recomp::analysis::AnalysisHintSetV2 JSON (Xenon's generic Analysis Hint Schema V2 - see include/gracemeria/ac6_migration.hpp), produced by migrate-ac6-recomp from this same migrated data. Its identity is still zeroed pending a real default.xex - see status above - so it does not yet pass Xenon's hint_set_matches_identity() check; re-run migrate-ac6-recomp with --identity-xex once one is available locally."
+  ]
+}

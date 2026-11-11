@@ -1,0 +1,1833 @@
+{
+  "chunks": [
+    {
+      "start": 2181795312,
+      "end": 2181795676,
+      "parentFunction": 2181794984
+    },
+    {
+      "start": 2181797176,
+      "end": 2181797388,
+      "parentFunction": 2181797072
+    },
+    {
+      "start": 2182770060,
+      "end": 2182770160,
+      "parentFunction": 2182769952
+    },
+    {
+      "start": 2182828344,
+      "end": 2182828360,
+      "parentFunction": 2182828328
+    }
+  ],
+  "functions": [
+    {
+      "address": 2181629976,
+      "name": "rex_sub_82090818"
+    },
+    {
+      "address": 2181640536,
+      "name": "rex_sub_82093158"
+    },
+    {
+      "address": 2181640768,
+      "name": "gracemeria_fn_82093240"
+    },
+    {
+      "address": 2181675680,
+      "name": "rex_sub_8209BAA0"
+    },
+    {
+      "address": 2181675696,
+      "name": "rex_sub_8209BAB0"
+    },
+    {
+      "address": 2181675704,
+      "name": "rex_sub_8209BAB8"
+    },
+    {
+      "address": 2181675712,
+      "name": "rex_sub_8209BAC0"
+    },
+    {
+      "address": 2181675992,
+      "name": "rex_sub_8209BBD8"
+    },
+    {
+      "address": 2181676592,
+      "name": "rex_sub_8209BE30"
+    },
+    {
+      "address": 2181677240,
+      "name": "rex_sub_8209C0B8"
+    },
+    {
+      "address": 2181678064,
+      "name": "rex_sub_8209C3F0"
+    },
+    {
+      "address": 2181757192,
+      "name": "rex_sub_820AF908"
+    },
+    {
+      "address": 2181761352,
+      "name": "rex_sub_820B0948"
+    },
+    {
+      "address": 2181774624,
+      "name": "rex_sub_820B3D20"
+    },
+    {
+      "address": 2181774680,
+      "name": "rex_sub_820B3D58"
+    },
+    {
+      "address": 2181775296,
+      "name": "rex_sub_820B3FC0"
+    },
+    {
+      "address": 2181794984,
+      "name": "gracemeria_fn_820b8ca8"
+    },
+    {
+      "address": 2181797072,
+      "name": "gracemeria_fn_820b94d0"
+    },
+    {
+      "address": 2181798472,
+      "name": "gracemeria_fn_820b9a48"
+    },
+    {
+      "address": 2181809944,
+      "name": "gracemeria_fn_820bc718"
+    },
+    {
+      "address": 2181818336,
+      "name": "gracemeria_fn_820be7e0"
+    },
+    {
+      "address": 2181835040,
+      "name": "gracemeria_fn_820c2920"
+    },
+    {
+      "address": 2181842576,
+      "name": "gracemeria_fn_820c4690"
+    },
+    {
+      "address": 2181843848,
+      "name": "gracemeria_fn_820c4b88"
+    },
+    {
+      "address": 2181850224,
+      "name": "gracemeria_fn_820c6470"
+    },
+    {
+      "address": 2181853200,
+      "name": "gracemeria_fn_820c7010"
+    },
+    {
+      "address": 2181857152,
+      "name": "gracemeria_fn_820c7f80"
+    },
+    {
+      "address": 2181858280,
+      "name": "gracemeria_fn_820c83e8"
+    },
+    {
+      "address": 2181860792,
+      "name": "gracemeria_fn_820c8db8"
+    },
+    {
+      "address": 2181863984,
+      "name": "gracemeria_fn_820c9a30"
+    },
+    {
+      "address": 2181888336,
+      "name": "gracemeria_fn_820cf950"
+    },
+    {
+      "address": 2181888384,
+      "name": "gracemeria_fn_820cf980"
+    },
+    {
+      "address": 2181888432,
+      "name": "gracemeria_fn_820cf9b0"
+    },
+    {
+      "address": 2181888480,
+      "name": "gracemeria_fn_820cf9e0"
+    },
+    {
+      "address": 2181888528,
+      "name": "gracemeria_fn_820cfa10"
+    },
+    {
+      "address": 2181888576,
+      "name": "gracemeria_fn_820cfa40"
+    },
+    {
+      "address": 2181888624,
+      "name": "gracemeria_fn_820cfa70"
+    },
+    {
+      "address": 2181888672,
+      "name": "gracemeria_fn_820cfaa0"
+    },
+    {
+      "address": 2181913044,
+      "name": "gracemeria_fn_820d59d4"
+    },
+    {
+      "address": 2181923832,
+      "name": "rex_sub_820D83F8"
+    },
+    {
+      "address": 2181924040,
+      "name": "rex_sub_820D84C8"
+    },
+    {
+      "address": 2181924272,
+      "name": "rex_sub_820D85B0"
+    },
+    {
+      "address": 2181960784,
+      "name": "rex_sub_820E1450"
+    },
+    {
+      "address": 2181961608,
+      "name": "rex_sub_820E1788"
+    },
+    {
+      "address": 2181962008,
+      "name": "rex_sub_820E1918"
+    },
+    {
+      "address": 2181965864,
+      "name": "rex_sub_820E2828"
+    },
+    {
+      "address": 2182045616,
+      "name": ""
+    },
+    {
+      "address": 2182045632,
+      "name": ""
+    },
+    {
+      "address": 2182045664,
+      "name": ""
+    },
+    {
+      "address": 2182045680,
+      "name": ""
+    },
+    {
+      "address": 2182045696,
+      "name": ""
+    },
+    {
+      "address": 2182045728,
+      "name": ""
+    },
+    {
+      "address": 2182045760,
+      "name": ""
+    },
+    {
+      "address": 2182045808,
+      "name": ""
+    },
+    {
+      "address": 2182045824,
+      "name": ""
+    },
+    {
+      "address": 2182045840,
+      "name": ""
+    },
+    {
+      "address": 2182052936,
+      "name": "gracemeria_fn_820f7c48"
+    },
+    {
+      "address": 2182053536,
+      "name": "gracemeria_fn_820f7ea0"
+    },
+    {
+      "address": 2182053640,
+      "name": "gracemeria_fn_820f7f08"
+    },
+    {
+      "address": 2182053728,
+      "name": "gracemeria_fn_820f7f60"
+    },
+    {
+      "address": 2182126760,
+      "name": "rex_sub_82109CA8"
+    },
+    {
+      "address": 2182195904,
+      "name": "rex_sub_8211AAC0"
+    },
+    {
+      "address": 2182200096,
+      "name": "rex_sub_8211BB20"
+    },
+    {
+      "address": 2182201080,
+      "name": "rex_sub_8211BEF8"
+    },
+    {
+      "address": 2182201096,
+      "name": "rex_sub_8211BF08"
+    },
+    {
+      "address": 2182240848,
+      "name": "rex_sub_82125A50"
+    },
+    {
+      "address": 2182244024,
+      "name": "rex_sub_821266B8"
+    },
+    {
+      "address": 2182244496,
+      "name": "rex_sub_82126890"
+    },
+    {
+      "address": 2182244792,
+      "name": "rex_sub_821269B8"
+    },
+    {
+      "address": 2182245096,
+      "name": "rex_sub_82126AE8"
+    },
+    {
+      "address": 2182246752,
+      "name": "rex_sub_82127160"
+    },
+    {
+      "address": 2182282536,
+      "name": "rex_sub_8212FD28"
+    },
+    {
+      "address": 2182317912,
+      "name": "rex_sub_82138758"
+    },
+    {
+      "address": 2182367824,
+      "name": "rex_sub_82144A50"
+    },
+    {
+      "address": 2182422784,
+      "name": "rex_sub_82152100"
+    },
+    {
+      "address": 2182471784,
+      "name": "rex_sub_8215E068"
+    },
+    {
+      "address": 2182506256,
+      "name": "rex_sub_82166710"
+    },
+    {
+      "address": 2182520776,
+      "name": "rex_sub_82169FC8"
+    },
+    {
+      "address": 2182526624,
+      "name": "rex_sub_8216B6A0"
+    },
+    {
+      "address": 2182647632,
+      "name": "rex_sub_82188F50"
+    },
+    {
+      "address": 2182664448,
+      "name": "rex_sub_8218D100"
+    },
+    {
+      "address": 2182677040,
+      "name": "rex_sub_82190230"
+    },
+    {
+      "address": 2182694728,
+      "name": "rex_sub_82194748"
+    },
+    {
+      "address": 2182707760,
+      "name": "gracemeria_fn_82197a30"
+    },
+    {
+      "address": 2182719928,
+      "name": "rex_sub_8219A9B8"
+    },
+    {
+      "address": 2182762136,
+      "name": "rex_sub_821A4E98"
+    },
+    {
+      "address": 2182769952,
+      "name": "gracemeria_fn_821a6d20"
+    },
+    {
+      "address": 2182792464,
+      "name": "rex_sub_821AC510"
+    },
+    {
+      "address": 2182816568,
+      "name": "rex_sub_821B2338"
+    },
+    {
+      "address": 2182824384,
+      "name": "rex_sub_821B41C0"
+    },
+    {
+      "address": 2182828328,
+      "name": "gracemeria_fn_821b5128"
+    },
+    {
+      "address": 2182883792,
+      "name": "rex_sub_821C29D0"
+    },
+    {
+      "address": 2182957416,
+      "name": "rex_sub_821D4968"
+    },
+    {
+      "address": 2182976664,
+      "name": "rex_sub_821D9498"
+    },
+    {
+      "address": 2182978696,
+      "name": "rex_sub_821D9C88"
+    },
+    {
+      "address": 2182982672,
+      "name": "rex_sub_821DAC10"
+    },
+    {
+      "address": 2182982920,
+      "name": "rex_sub_821DAD08"
+    },
+    {
+      "address": 2182983352,
+      "name": "rex_sub_821DAEB8"
+    },
+    {
+      "address": 2182983464,
+      "name": "rex_sub_821DAF28"
+    },
+    {
+      "address": 2182983576,
+      "name": "rex_sub_821DAF98"
+    },
+    {
+      "address": 2182984280,
+      "name": "rex_sub_821DB258"
+    },
+    {
+      "address": 2182984336,
+      "name": "rex_sub_821DB290"
+    },
+    {
+      "address": 2182984448,
+      "name": "rex_sub_821DB300"
+    },
+    {
+      "address": 2182984784,
+      "name": "rex_sub_821DB450"
+    },
+    {
+      "address": 2182984832,
+      "name": "rex_sub_821DB480"
+    },
+    {
+      "address": 2182984888,
+      "name": "rex_sub_821DB4B8"
+    },
+    {
+      "address": 2182984944,
+      "name": "rex_sub_821DB4F0"
+    },
+    {
+      "address": 2182984992,
+      "name": "rex_sub_821DB520"
+    },
+    {
+      "address": 2182985040,
+      "name": "rex_sub_821DB550"
+    },
+    {
+      "address": 2182985096,
+      "name": "rex_sub_821DB588"
+    },
+    {
+      "address": 2182985152,
+      "name": "rex_sub_821DB5C0"
+    },
+    {
+      "address": 2182985200,
+      "name": "rex_sub_821DB5F0"
+    },
+    {
+      "address": 2182985232,
+      "name": "rex_sub_821DB610"
+    },
+    {
+      "address": 2182985264,
+      "name": "rex_sub_821DB630"
+    },
+    {
+      "address": 2182985296,
+      "name": "rex_sub_821DB650"
+    },
+    {
+      "address": 2182985328,
+      "name": "rex_sub_821DB670"
+    },
+    {
+      "address": 2182985360,
+      "name": "rex_sub_821DB690"
+    },
+    {
+      "address": 2182985392,
+      "name": "rex_sub_821DB6B0"
+    },
+    {
+      "address": 2182985864,
+      "name": "rex_sub_821DB888"
+    },
+    {
+      "address": 2182985912,
+      "name": "rex_sub_821DB8B8"
+    },
+    {
+      "address": 2182986200,
+      "name": "rex_sub_821DB9D8"
+    },
+    {
+      "address": 2182986216,
+      "name": "rex_sub_821DB9E8"
+    },
+    {
+      "address": 2182986312,
+      "name": "rex_sub_821DBA48"
+    },
+    {
+      "address": 2182986400,
+      "name": "rex_sub_821DBAA0"
+    },
+    {
+      "address": 2182986520,
+      "name": "rex_sub_821DBB18"
+    },
+    {
+      "address": 2182986560,
+      "name": "rex_sub_821DBB40"
+    },
+    {
+      "address": 2182986600,
+      "name": "rex_sub_821DBB68"
+    },
+    {
+      "address": 2182986640,
+      "name": "rex_sub_821DBB90"
+    },
+    {
+      "address": 2182986680,
+      "name": "rex_sub_821DBBB8"
+    },
+    {
+      "address": 2182986720,
+      "name": "rex_sub_821DBBE0"
+    },
+    {
+      "address": 2182986760,
+      "name": "rex_sub_821DBC08"
+    },
+    {
+      "address": 2182986792,
+      "name": "rex_sub_821DBC28"
+    },
+    {
+      "address": 2182986824,
+      "name": "rex_sub_821DBC48"
+    },
+    {
+      "address": 2182986864,
+      "name": "rex_sub_821DBC70"
+    },
+    {
+      "address": 2182986904,
+      "name": "rex_sub_821DBC98"
+    },
+    {
+      "address": 2182986944,
+      "name": "rex_sub_821DBCC0"
+    },
+    {
+      "address": 2182986984,
+      "name": "rex_sub_821DBCE8"
+    },
+    {
+      "address": 2182987024,
+      "name": "rex_sub_821DBD10"
+    },
+    {
+      "address": 2182987064,
+      "name": "rex_sub_821DBD38"
+    },
+    {
+      "address": 2182987432,
+      "name": "rex_sub_821DBEA8"
+    },
+    {
+      "address": 2182987608,
+      "name": "rex_sub_821DBF58"
+    },
+    {
+      "address": 2182987784,
+      "name": "rex_sub_821DC008"
+    },
+    {
+      "address": 2182987960,
+      "name": "rex_sub_821DC0B8"
+    },
+    {
+      "address": 2182988136,
+      "name": "rex_sub_821DC168"
+    },
+    {
+      "address": 2182988192,
+      "name": "rex_sub_821DC1A0"
+    },
+    {
+      "address": 2182988248,
+      "name": "rex_sub_821DC1D8"
+    },
+    {
+      "address": 2182988304,
+      "name": "rex_sub_821DC210"
+    },
+    {
+      "address": 2182988448,
+      "name": "rex_sub_821DC2A0"
+    },
+    {
+      "address": 2182988496,
+      "name": "rex_sub_821DC2D0"
+    },
+    {
+      "address": 2182988552,
+      "name": "rex_sub_821DC308"
+    },
+    {
+      "address": 2182988600,
+      "name": "rex_sub_821DC338"
+    },
+    {
+      "address": 2182988648,
+      "name": "rex_sub_821DC368"
+    },
+    {
+      "address": 2182988688,
+      "name": "rex_sub_821DC390"
+    },
+    {
+      "address": 2182988736,
+      "name": "rex_sub_821DC3C0"
+    },
+    {
+      "address": 2182988888,
+      "name": "rex_sub_821DC458"
+    },
+    {
+      "address": 2182988936,
+      "name": "rex_sub_821DC488"
+    },
+    {
+      "address": 2182988984,
+      "name": "rex_sub_821DC4B8"
+    },
+    {
+      "address": 2182989032,
+      "name": "rex_sub_821DC4E8"
+    },
+    {
+      "address": 2182989080,
+      "name": "rex_sub_821DC518"
+    },
+    {
+      "address": 2182990000,
+      "name": "rex_sub_821DC8B0"
+    },
+    {
+      "address": 2183013736,
+      "name": "rex_sub_821E2568"
+    },
+    {
+      "address": 2183014328,
+      "name": ""
+    },
+    {
+      "address": 2183087776,
+      "name": "rex_sub_821F46A0"
+    },
+    {
+      "address": 2183096688,
+      "name": "rex_sub_821F6970"
+    },
+    {
+      "address": 2183097600,
+      "name": "rex_sub_821F6D00"
+    },
+    {
+      "address": 2183099544,
+      "name": "rex_sub_821F7498"
+    },
+    {
+      "address": 2183099704,
+      "name": "rex_sub_821F7538"
+    },
+    {
+      "address": 2183102472,
+      "name": "rex_sub_821F8008"
+    },
+    {
+      "address": 2183112356,
+      "name": "rex_sub_821FA6A4"
+    },
+    {
+      "address": 2183113100,
+      "name": "rex_sub_821FA98C"
+    },
+    {
+      "address": 2183135180,
+      "name": "rex_sub_821FFFCC"
+    },
+    {
+      "address": 2183135300,
+      "name": "rex_sub_82200044"
+    },
+    {
+      "address": 2183135492,
+      "name": "rex_sub_82200104"
+    },
+    {
+      "address": 2183140792,
+      "name": ""
+    },
+    {
+      "address": 2183141264,
+      "name": "rex_sub_82201790"
+    },
+    {
+      "address": 2183144016,
+      "name": "rex_sub_82202250"
+    },
+    {
+      "address": 2183204552,
+      "name": "rex_sub_82210EC8"
+    },
+    {
+      "address": 2183204768,
+      "name": "rex_sub_82210FA0"
+    },
+    {
+      "address": 2183204944,
+      "name": "rex_sub_82211050"
+    },
+    {
+      "address": 2183351736,
+      "name": "rex_sub_82234DB8"
+    },
+    {
+      "address": 2183351744,
+      "name": "rex_sub_82234DC0"
+    },
+    {
+      "address": 2183351808,
+      "name": "rex_sub_82234E00"
+    },
+    {
+      "address": 2183352584,
+      "name": "rex_sub_82235108"
+    },
+    {
+      "address": 2183390848,
+      "name": "rex_sub_8223E680"
+    },
+    {
+      "address": 2183403544,
+      "name": "rex_sub_82241818"
+    },
+    {
+      "address": 2183403952,
+      "name": "rex_sub_822419B0"
+    },
+    {
+      "address": 2183448216,
+      "name": "rex_sub_8224C698"
+    },
+    {
+      "address": 2183448456,
+      "name": "rex_sub_8224C788"
+    },
+    {
+      "address": 2183479880,
+      "name": "rex_sub_82254248"
+    },
+    {
+      "address": 2183479884,
+      "name": "rex_sub_8225424C"
+    },
+    {
+      "address": 2183552944,
+      "name": "rex_sub_82265FB0"
+    },
+    {
+      "address": 2183558744,
+      "name": "rex_sub_82267658"
+    },
+    {
+      "address": 2183587296,
+      "name": "rex_sub_8226E5E0"
+    },
+    {
+      "address": 2183602488,
+      "name": "rex_sub_82272138"
+    },
+    {
+      "address": 2183603536,
+      "name": "rex_sub_82272550"
+    },
+    {
+      "address": 2183603816,
+      "name": ""
+    },
+    {
+      "address": 2183741768,
+      "name": "rex_sub_82294148"
+    },
+    {
+      "address": 2183781368,
+      "name": "rex_sub_8229DBF8"
+    },
+    {
+      "address": 2183800736,
+      "name": "rex_sub_822A27A0"
+    },
+    {
+      "address": 2183832160,
+      "name": "rex_sub_822AA260"
+    },
+    {
+      "address": 2183841272,
+      "name": "rex_sub_822AC5F8"
+    },
+    {
+      "address": 2183881648,
+      "name": "rex_sub_822B63B0"
+    },
+    {
+      "address": 2183908792,
+      "name": "rex_sub_822BCDB8"
+    },
+    {
+      "address": 2183934064,
+      "name": "rex_sub_822C3070"
+    },
+    {
+      "address": 2183942080,
+      "name": "rex_sub_822C4FC0"
+    },
+    {
+      "address": 2184052424,
+      "name": "rex_sub_822DFEC8"
+    },
+    {
+      "address": 2184223880,
+      "name": "rex_sub_82309C88"
+    },
+    {
+      "address": 2184225600,
+      "name": "gracemeria_fn_8230a340"
+    },
+    {
+      "address": 2184296944,
+      "name": "rex_sub_8231B9F0"
+    },
+    {
+      "address": 2184298480,
+      "name": "rex_sub_8231BFF0"
+    },
+    {
+      "address": 2184298872,
+      "name": "rex_sub_8231C178"
+    },
+    {
+      "address": 2184300256,
+      "name": "rex_sub_8231C6E0"
+    },
+    {
+      "address": 2184300720,
+      "name": "rex_sub_8231C8B0"
+    },
+    {
+      "address": 2184323840,
+      "name": ""
+    },
+    {
+      "address": 2184323888,
+      "name": ""
+    },
+    {
+      "address": 2184323904,
+      "name": ""
+    },
+    {
+      "address": 2184333272,
+      "name": "rex_sub_823247D8"
+    },
+    {
+      "address": 2184390336,
+      "name": "rex_sub_823326C0"
+    },
+    {
+      "address": 2184392232,
+      "name": "rex_sub_82332E28"
+    },
+    {
+      "address": 2184392576,
+      "name": "rex_sub_82332F80"
+    },
+    {
+      "address": 2184418088,
+      "name": "rex_sub_82339328"
+    },
+    {
+      "address": 2184419200,
+      "name": "rex_sub_82339780"
+    },
+    {
+      "address": 2184420832,
+      "name": "rex_sub_82339DE0"
+    },
+    {
+      "address": 2184423896,
+      "name": "rex_sub_8233A9D8"
+    },
+    {
+      "address": 2184426352,
+      "name": "rex_sub_8233B370"
+    },
+    {
+      "address": 2184427296,
+      "name": "rex_sub_8233B720"
+    },
+    {
+      "address": 2184427904,
+      "name": "rex_sub_8233B980"
+    },
+    {
+      "address": 2184430376,
+      "name": "rex_sub_8233C328"
+    },
+    {
+      "address": 2184432456,
+      "name": "rex_sub_8233CB48"
+    },
+    {
+      "address": 2184432528,
+      "name": "rex_sub_8233CB90"
+    },
+    {
+      "address": 2184432600,
+      "name": "rex_sub_8233CBD8"
+    },
+    {
+      "address": 2184433048,
+      "name": "rex_sub_8233CD98"
+    },
+    {
+      "address": 2184433296,
+      "name": "rex_sub_8233CE90"
+    },
+    {
+      "address": 2184433840,
+      "name": "rex_sub_8233D0B0"
+    },
+    {
+      "address": 2184434608,
+      "name": "rex_sub_8233D3B0"
+    },
+    {
+      "address": 2184436088,
+      "name": "rex_sub_8233D978"
+    },
+    {
+      "address": 2184438216,
+      "name": "rex_sub_8233E1C8"
+    },
+    {
+      "address": 2184446288,
+      "name": "rex_sub_82340150"
+    },
+    {
+      "address": 2184446696,
+      "name": "rex_sub_823402E8"
+    },
+    {
+      "address": 2184446848,
+      "name": "rex_sub_82340380"
+    },
+    {
+      "address": 2184447424,
+      "name": "rex_sub_823405C0"
+    },
+    {
+      "address": 2184447480,
+      "name": "rex_sub_823405F8"
+    },
+    {
+      "address": 2184447568,
+      "name": "rex_sub_82340650"
+    },
+    {
+      "address": 2184447864,
+      "name": "rex_sub_82340778"
+    },
+    {
+      "address": 2184449992,
+      "name": "rex_sub_82340FC8"
+    },
+    {
+      "address": 2184457312,
+      "name": "rex_sub_82342C60"
+    },
+    {
+      "address": 2184457904,
+      "name": "rex_sub_82342EB0"
+    },
+    {
+      "address": 2184457968,
+      "name": "rex_sub_82342EF0"
+    },
+    {
+      "address": 2184459176,
+      "name": "rex_sub_823433A8"
+    },
+    {
+      "address": 2184459256,
+      "name": "rex_sub_823433F8"
+    },
+    {
+      "address": 2184459344,
+      "name": "rex_sub_82343450"
+    },
+    {
+      "address": 2184459416,
+      "name": "rex_sub_82343498"
+    },
+    {
+      "address": 2184467040,
+      "name": "rex_sub_82345260"
+    },
+    {
+      "address": 2184467432,
+      "name": "rex_sub_823453E8"
+    },
+    {
+      "address": 2184470472,
+      "name": "rex_sub_82345FC8"
+    },
+    {
+      "address": 2184476808,
+      "name": "rex_sub_82347888"
+    },
+    {
+      "address": 2184480176,
+      "name": "rex_sub_823485B0"
+    },
+    {
+      "address": 2184480544,
+      "name": "rex_sub_82348720"
+    },
+    {
+      "address": 2184483248,
+      "name": "rex_sub_823491B0"
+    },
+    {
+      "address": 2184483328,
+      "name": "rex_sub_82349200"
+    },
+    {
+      "address": 2184488560,
+      "name": "rex_sub_8234A670"
+    },
+    {
+      "address": 2184488632,
+      "name": "rex_sub_8234A6B8"
+    },
+    {
+      "address": 2184492696,
+      "name": "rex_sub_8234B698"
+    },
+    {
+      "address": 2184511200,
+      "name": "rex_sub_8234FEE0"
+    },
+    {
+      "address": 2184511768,
+      "name": "rex_sub_82350118"
+    },
+    {
+      "address": 2184512584,
+      "name": "rex_sub_82350448"
+    },
+    {
+      "address": 2184530680,
+      "name": "rex_sub_82354AF8"
+    },
+    {
+      "address": 2184531376,
+      "name": "rex_sub_82354DB0"
+    },
+    {
+      "address": 2184533160,
+      "name": "rex_sub_823554A8"
+    },
+    {
+      "address": 2184534136,
+      "name": "rex_sub_82355878"
+    },
+    {
+      "address": 2184534264,
+      "name": "rex_sub_823558F8"
+    },
+    {
+      "address": 2184535520,
+      "name": "rex_sub_82355DE0"
+    },
+    {
+      "address": 2184536016,
+      "name": "rex_sub_82355FD0"
+    },
+    {
+      "address": 2184536672,
+      "name": "rex_sub_82356260"
+    },
+    {
+      "address": 2184542000,
+      "name": "rex_sub_82357730"
+    },
+    {
+      "address": 2184581628,
+      "name": "rex_sub_823611FC"
+    },
+    {
+      "address": 2184581908,
+      "name": "rex_sub_82361314"
+    },
+    {
+      "address": 2184599784,
+      "name": "rex_sub_823658E8"
+    },
+    {
+      "address": 2184600048,
+      "name": "rex_sub_823659F0"
+    },
+    {
+      "address": 2184600712,
+      "name": "rex_sub_82365C88"
+    },
+    {
+      "address": 2184605336,
+      "name": "rex_sub_82366E98"
+    },
+    {
+      "address": 2184605520,
+      "name": "rex_sub_82366F50"
+    },
+    {
+      "address": 2184605768,
+      "name": "rex_sub_82367048"
+    },
+    {
+      "address": 2184605896,
+      "name": "rex_sub_823670C8"
+    },
+    {
+      "address": 2184606224,
+      "name": "rex_sub_82367210"
+    },
+    {
+      "address": 2184606304,
+      "name": "rex_sub_82367260"
+    },
+    {
+      "address": 2184606384,
+      "name": "rex_sub_823672B0"
+    },
+    {
+      "address": 2184606464,
+      "name": "rex_sub_82367300"
+    },
+    {
+      "address": 2184607112,
+      "name": "rex_sub_82367588"
+    },
+    {
+      "address": 2184608472,
+      "name": "rex_sub_82367AD8"
+    },
+    {
+      "address": 2184608480,
+      "name": "rex_sub_82367AE0"
+    },
+    {
+      "address": 2184608488,
+      "name": "rex_sub_82367AE8"
+    },
+    {
+      "address": 2184610976,
+      "name": "rex_sub_823684A0"
+    },
+    {
+      "address": 2184611536,
+      "name": "rex_sub_823686D0"
+    },
+    {
+      "address": 2184611656,
+      "name": "rex_sub_82368748"
+    },
+    {
+      "address": 2184621872,
+      "name": "rex_sub_8236AF30"
+    },
+    {
+      "address": 2184626656,
+      "name": "rex_sub_8236C1E0"
+    },
+    {
+      "address": 2184626720,
+      "name": "rex_sub_8236C220"
+    },
+    {
+      "address": 2184627144,
+      "name": "rex_sub_8236C3C8"
+    },
+    {
+      "address": 2184627208,
+      "name": "rex_sub_8236C408"
+    },
+    {
+      "address": 2184627968,
+      "name": "rex_sub_8236C700"
+    },
+    {
+      "address": 2184636360,
+      "name": "rex_sub_8236E7C8"
+    },
+    {
+      "address": 2184636912,
+      "name": "rex_sub_8236E9F0"
+    },
+    {
+      "address": 2184637296,
+      "name": "rex_sub_8236EB70"
+    },
+    {
+      "address": 2184637520,
+      "name": "rex_sub_8236EC50"
+    },
+    {
+      "address": 2184640152,
+      "name": "rex_sub_8236F698"
+    },
+    {
+      "address": 2184650712,
+      "name": "rex_sub_82371FD8"
+    },
+    {
+      "address": 2184652816,
+      "name": "rex_sub_82372810"
+    },
+    {
+      "address": 2184653304,
+      "name": "rex_sub_823729F8"
+    },
+    {
+      "address": 2184653488,
+      "name": "rex_sub_82372AB0"
+    },
+    {
+      "address": 2184653552,
+      "name": "rex_sub_82372AF0"
+    },
+    {
+      "address": 2184659432,
+      "name": "rex_sub_823741E8"
+    },
+    {
+      "address": 2184659704,
+      "name": "rex_sub_823742F8"
+    },
+    {
+      "address": 2184661336,
+      "name": "rex_sub_82374958"
+    },
+    {
+      "address": 2184663696,
+      "name": "rex_sub_82375290"
+    },
+    {
+      "address": 2184663928,
+      "name": "rex_sub_82375378"
+    },
+    {
+      "address": 2184664944,
+      "name": "rex_sub_82375770"
+    },
+    {
+      "address": 2184668624,
+      "name": "rex_sub_823765D0"
+    },
+    {
+      "address": 2184681784,
+      "name": "rex_sub_82379938"
+    },
+    {
+      "address": 2184681944,
+      "name": "rex_sub_823799D8"
+    },
+    {
+      "address": 2184682072,
+      "name": "rex_sub_82379A58"
+    },
+    {
+      "address": 2184683784,
+      "name": "rex_sub_8237A108"
+    },
+    {
+      "address": 2184683792,
+      "name": "rex_sub_8237A110"
+    },
+    {
+      "address": 2184684688,
+      "name": "rex_sub_8237A490"
+    },
+    {
+      "address": 2184684888,
+      "name": "rex_sub_8237A558"
+    },
+    {
+      "address": 2184685008,
+      "name": "rex_sub_8237A5D0"
+    },
+    {
+      "address": 2184685128,
+      "name": "rex_sub_8237A648"
+    },
+    {
+      "address": 2184685136,
+      "name": "rex_sub_8237A650"
+    },
+    {
+      "address": 2184685192,
+      "name": "rex_sub_8237A688"
+    },
+    {
+      "address": 2184685304,
+      "name": "rex_sub_8237A6F8"
+    },
+    {
+      "address": 2184685392,
+      "name": "rex_sub_8237A750"
+    },
+    {
+      "address": 2184685432,
+      "name": "rex_sub_8237A778"
+    },
+    {
+      "address": 2184685464,
+      "name": "rex_sub_8237A798"
+    },
+    {
+      "address": 2184711400,
+      "name": "rex_sub_82380CE8"
+    },
+    {
+      "address": 2184712992,
+      "name": "rex_sub_82381320"
+    },
+    {
+      "address": 2184717560,
+      "name": "rex_sub_823824F8"
+    },
+    {
+      "address": 2184720320,
+      "name": "rex_sub_82382FC0"
+    },
+    {
+      "address": 2184720472,
+      "name": "rex_sub_82383058"
+    },
+    {
+      "address": 2184735824,
+      "name": "rex_sub_82386C50"
+    },
+    {
+      "address": 2184743624,
+      "name": "rex_sub_82388AC8"
+    },
+    {
+      "address": 2184743632,
+      "name": "rex_sub_82388AD0"
+    },
+    {
+      "address": 2184755320,
+      "name": "rex_sub_8238B878"
+    },
+    {
+      "address": 2184762424,
+      "name": "rex_sub_8238D438"
+    },
+    {
+      "address": 2184767424,
+      "name": "rex_sub_8238E7C0"
+    },
+    {
+      "address": 2184768736,
+      "name": "rex_sub_8238ECE0"
+    },
+    {
+      "address": 2184770592,
+      "name": "rex_sub_8238F420"
+    },
+    {
+      "address": 2184776472,
+      "name": "rex_sub_82390B18"
+    },
+    {
+      "address": 2184866112,
+      "name": "rex_sub_823A6940"
+    },
+    {
+      "address": 2184908416,
+      "name": "rex_sub_823B0E80"
+    },
+    {
+      "address": 2184912984,
+      "name": "rex_sub_823B2058"
+    },
+    {
+      "address": 2184923248,
+      "name": "rex_sub_823B4870"
+    },
+    {
+      "address": 2184938744,
+      "name": "rex_sub_823B84F8"
+    },
+    {
+      "address": 2184938840,
+      "name": "rex_sub_823B8558"
+    },
+    {
+      "address": 2184938960,
+      "name": "rex_sub_823B85D0"
+    },
+    {
+      "address": 2185012560,
+      "name": "rex_sub_823CA550"
+    },
+    {
+      "address": 2185012880,
+      "name": "rex_sub_823CA690"
+    },
+    {
+      "address": 2185014688,
+      "name": "rex_sub_823CADA0"
+    },
+    {
+      "address": 2185014992,
+      "name": "rex_sub_823CAED0"
+    },
+    {
+      "address": 2185018440,
+      "name": "rex_sub_823CBC48"
+    },
+    {
+      "address": 2185028832,
+      "name": "rex_sub_823CE4E0"
+    },
+    {
+      "address": 2185029256,
+      "name": "rex_sub_823CE688"
+    },
+    {
+      "address": 2185030656,
+      "name": "rex_sub_823CEC00"
+    },
+    {
+      "address": 2185031592,
+      "name": "rex_sub_823CEFA8"
+    },
+    {
+      "address": 2185034016,
+      "name": "rex_sub_823CF920"
+    },
+    {
+      "address": 2185034032,
+      "name": "rex_sub_823CF930"
+    },
+    {
+      "address": 2185034120,
+      "name": "rex_sub_823CF988"
+    },
+    {
+      "address": 2185034208,
+      "name": "rex_sub_823CF9E0"
+    },
+    {
+      "address": 2185034376,
+      "name": "rex_sub_823CFA88"
+    },
+    {
+      "address": 2185034640,
+      "name": "rex_sub_823CFB90"
+    },
+    {
+      "address": 2185035112,
+      "name": "rex_sub_823CFD68"
+    },
+    {
+      "address": 2185056704,
+      "name": "rex_sub_823D51C0"
+    },
+    {
+      "address": 2185056728,
+      "name": "rex_sub_823D51D8"
+    }
+  ],
+  "hooks": [
+    {
+      "address": 2183064548,
+      "description": "midasm_hook jump_address_on_true=0x821eebec",
+      "nativeReplacementIdentity": "ac6FlipIntervalHook"
+    },
+    {
+      "address": 2183068984,
+      "description": "midasm_hook registers=[r29]",
+      "nativeReplacementIdentity": "ac6DeltaDivisorHook"
+    },
+    {
+      "address": 2183069044,
+      "description": "midasm_hook registers=[r8,r10,r29,r30]",
+      "nativeReplacementIdentity": "ac6DeltaPrecisionHook"
+    },
+    {
+      "address": 2184204096,
+      "description": "midasm_hook registers=[f9]",
+      "nativeReplacementIdentity": "ac6PathDropHook"
+    },
+    {
+      "address": 2183071224,
+      "description": "midasm_hook registers=[r31]",
+      "nativeReplacementIdentity": "ac6PresentTimingHook"
+    },
+    {
+      "address": 2183069488,
+      "description": "midasm_hook registers=[r10] jump_address_on_true=0x821eff74",
+      "nativeReplacementIdentity": "ac6PresentIntervalHook"
+    },
+    {
+      "address": 2182628448,
+      "description": "midasm_hook registers=[r3]",
+      "nativeReplacementIdentity": "ac6CinematicTickHook"
+    },
+    {
+      "address": 2182633208,
+      "description": "midasm_hook registers=[r3]",
+      "nativeReplacementIdentity": "ac6CinematicTickHook"
+    },
+    {
+      "address": 2184461944,
+      "description": "midasm_hook registers=[r28,ctr]",
+      "nativeReplacementIdentity": "ac6PacWorkerDispatchHook"
+    },
+    {
+      "address": 2184468064,
+      "description": "midasm_hook registers=[r3,r4,r5,r6,ctr]",
+      "nativeReplacementIdentity": "ac6PacWorkerL2DispatchHook"
+    },
+    {
+      "address": 2184468352,
+      "description": "midasm_hook registers=[r3,r4,r5,r6,ctr]",
+      "nativeReplacementIdentity": "ac6PacWorkerL2DispatchHook"
+    },
+    {
+      "address": 2184468676,
+      "description": "midasm_hook registers=[r3,r4,r5,r6,ctr]",
+      "nativeReplacementIdentity": "ac6PacWorkerL2DispatchHook"
+    },
+    {
+      "address": 2184469072,
+      "description": "midasm_hook registers=[r3,r4,r5,r6,ctr]",
+      "nativeReplacementIdentity": "ac6PacWorkerL2DispatchHook"
+    },
+    {
+      "address": 2184469360,
+      "description": "midasm_hook registers=[r3,r4,r5,r6,ctr]",
+      "nativeReplacementIdentity": "ac6PacWorkerL2DispatchHook"
+    },
+    {
+      "address": 2182925404,
+      "description": "midasm_hook registers=[r4,r10,r11,r31]",
+      "nativeReplacementIdentity": "ac6PacDecoderDumpHook"
+    },
+    {
+      "address": 2183984400,
+      "description": "midasm_hook registers=[r3]",
+      "nativeReplacementIdentity": "ac6PacCodecDispatchProbe"
+    },
+    {
+      "address": 2183983864,
+      "description": "midasm_hook registers=[r3]",
+      "nativeReplacementIdentity": "ac6PacMode1EntryProbe"
+    },
+    {
+      "address": 2183973712,
+      "description": "midasm_hook registers=[r3,r4,r5]",
+      "nativeReplacementIdentity": "ac6PacBitFetcherProbe"
+    },
+    {
+      "address": 2183981760,
+      "description": "midasm_hook registers=[r3,r4]",
+      "nativeReplacementIdentity": "ac6PacDynamicHeaderProbe"
+    },
+    {
+      "address": 2183977784,
+      "description": "midasm_hook registers=[r3]",
+      "nativeReplacementIdentity": "ac6PacTreeBuilderProbe"
+    },
+    {
+      "address": 2183975016,
+      "description": "midasm_hook registers=[r3]",
+      "nativeReplacementIdentity": "ac6PacBlockConsumerProbe"
+    },
+    {
+      "address": 2183976792,
+      "description": "midasm_hook registers=[r3]",
+      "nativeReplacementIdentity": "ac6PacBlockConsumerProbe"
+    },
+    {
+      "address": 2182954124,
+      "description": "midasm_hook registers=[r5]",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOp2"
+    },
+    {
+      "address": 2182954252,
+      "description": "midasm_hook registers=[r5]",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOp3"
+    },
+    {
+      "address": 2182954440,
+      "description": "midasm_hook registers=[r5]",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOp6"
+    },
+    {
+      "address": 2182954584,
+      "description": "midasm_hook registers=[r5]",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOp7"
+    },
+    {
+      "address": 2182954864,
+      "description": "midasm_hook registers=[r5]",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOpA"
+    },
+    {
+      "address": 2182955056,
+      "description": "midasm_hook registers=[r5]",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOpB"
+    },
+    {
+      "address": 2182955248,
+      "description": "midasm_hook registers=[r5]",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOpC"
+    },
+    {
+      "address": 2182903096,
+      "description": "midasm_hook registers=[r5]",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOpD"
+    },
+    {
+      "address": 2182909636,
+      "description": "midasm_hook registers=[r5]",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOp8"
+    },
+    {
+      "address": 2182909816,
+      "description": "midasm_hook registers=[r5]",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOp9"
+    },
+    {
+      "address": 2182910616,
+      "description": "midasm_hook registers=[r5]",
+      "nativeReplacementIdentity": "ac6StorageOrderHookOp10"
+    },
+    {
+      "address": 2182896248,
+      "description": "midasm_hook registers=[r5,r29]",
+      "nativeReplacementIdentity": "ac6StorageOrderHookVar"
+    },
+    {
+      "address": 2182957688,
+      "description": "JobPoolB::Submit entry: records the mode word each effect-manager job is submitted with",
+      "nativeReplacementIdentity": "ac6EffectModeSubmitHook"
+    },
+    {
+      "address": 2183869000,
+      "description": "Effect manager vtbl[+0x04] dispatcher entry: runs the job's submitted mode instead of re-reading the shared word",
+      "nativeReplacementIdentity": "ac6EffectModeDispatchHook"
+    },
+    {
+      "address": 2182628448,
+      "description": "CAce6DemoManager::Exec entry: runs Exec plus bounded catch-up ticks while the cutscene timeline trails its audio",
+      "nativeReplacementIdentity": "ac6CutsceneResyncHookDD"
+    },
+    {
+      "address": 2182633208,
+      "description": "CX360DemoManagerEM::Exec entry: runs Exec plus bounded catch-up ticks while the cutscene timeline trails its audio",
+      "nativeReplacementIdentity": "ac6CutsceneResyncHookEM"
+    }
+  ],
+  "identity": {
+    "baseVersion": 0,
+    "effectiveImageHash": "0000000000000000000000000000000000000000",
+    "effectiveVersion": 0,
+    "mediaId": 0,
+    "titleId": 0,
+    "titleUpdateApplied": false
+  },
+  "indirectBranches": [],
+  "indirectCalls": [
+    {
+      "callsite": 2184692584,
+      "targets": []
+    },
+    {
+      "callsite": 2184690248,
+      "targets": []
+    }
+  ],
+  "moduleName": "ProjectGracemeria",
+  "nativeReplacements": [
+    {
+      "guestAddress": 2183110160,
+      "kind": "HeapAllocate",
+      "sourceName": "RtlAllocateHeap"
+    },
+    {
+      "guestAddress": 2183112440,
+      "kind": "HeapFree",
+      "sourceName": "RtlFreeHeap"
+    },
+    {
+      "guestAddress": 2183106728,
+      "kind": "HeapSize",
+      "sourceName": "RtlSizeHeap"
+    },
+    {
+      "guestAddress": 2183113184,
+      "kind": "HeapReAllocate",
+      "sourceName": "RtlReAllocateHeap"
+    },
+    {
+      "guestAddress": 2184720152,
+      "kind": "Memcpy",
+      "sourceName": "memcpy"
+    },
+    {
+      "guestAddress": 2184722544,
+      "kind": "Memmove",
+      "sourceName": "memmove"
+    },
+    {
+      "guestAddress": 2184720624,
+      "kind": "Memset",
+      "sourceName": "memset"
+    },
+    {
+      "guestAddress": 2184718992,
+      "kind": "Unsupported",
+      "sourceName": "XMemCpy"
+    },
+    {
+      "guestAddress": 2184722736,
+      "kind": "Strncmp",
+      "sourceName": "strncmp"
+    },
+    {
+      "guestAddress": 2184717168,
+      "kind": "Strncpy",
+      "sourceName": "strncpy"
+    },
+    {
+      "guestAddress": 2184716688,
+      "kind": "Strchr",
+      "sourceName": "strchr"
+    },
+    {
+      "guestAddress": 2184717600,
+      "kind": "Strstr",
+      "sourceName": "strstr"
+    },
+    {
+      "guestAddress": 2184767504,
+      "kind": "Strrchr",
+      "sourceName": "strrchr"
+    },
+    {
+      "guestAddress": 2184716752,
+      "kind": "StrcpyChecked",
+      "sourceName": "strcpy_s"
+    },
+    {
+      "guestAddress": 2184715744,
+      "kind": "MemcpyChecked",
+      "sourceName": "memcpy_s"
+    },
+    {
+      "guestAddress": 2184710640,
+      "kind": "MemmoveChecked",
+      "sourceName": "memmove_s"
+    }
+  ],
+  "patches": [],
+  "regions": [],
+  "runtimeHelpers": [
+    {
+      "address": 2185012880,
+      "kind": "LongJmp"
+    },
+    {
+      "address": 2185013680,
+      "kind": "SetJmp"
+    },
+    {
+      "address": 2184718848,
+      "kind": "SaveGprLr",
+      "registerStart": 22
+    },
+    {
+      "address": 2184718896,
+      "kind": "RestoreGprLr",
+      "registerStart": 14
+    }
+  ],
+  "schemaVersion": 2,
+  "switches": [],
+  "symbols": []
+}

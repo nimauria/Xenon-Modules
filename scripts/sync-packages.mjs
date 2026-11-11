@@ -1,12 +1,18 @@
-import { readFileSync, writeFileSync, readdirSync, lstatSync } from "node:fs";
+import {
+  readFileSync,
+  writeFileSync,
+  readdirSync,
+  lstatSync,
+  realpathSync,
+} from "node:fs";
 import { resolve, relative, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
 export const root = fileURLToPath(new URL("../", import.meta.url));
-export const read = (path) =>
-  JSON.parse(readFileSync(resolve(root, path), "utf8"));
-export function packageIndex(entry) {
-  const folder = resolve(root, entry.sourcePath),
+export const read = (path, base = root) =>
+  JSON.parse(readFileSync(resolve(base, path), "utf8"));
+export function packageIndex(entry, base = root) {
+  const folder = resolve(base, entry.sourcePath),
     files = new Map();
   const visit = (path) => {
     if (
@@ -19,7 +25,11 @@ export function packageIndex(entry) {
       throw Error("Unsafe package path: " + path);
     const full = resolve(folder, path),
       stat = lstatSync(full);
-    if (!full.startsWith(folder + sep) || stat.isSymbolicLink())
+    if (
+      !full.startsWith(folder + sep) ||
+      stat.isSymbolicLink() ||
+      !realpathSync(full).startsWith(realpathSync(folder) + sep)
+    )
       throw Error("Package path escapes module folder");
     if (stat.isDirectory()) {
       for (const item of readdirSync(full).sort()) visit(path + "/" + item);
@@ -34,9 +44,10 @@ export function packageIndex(entry) {
       });
     } else throw Error("Unsupported package file: " + path);
   };
-  for (const path of read(entry.sourcePath + "/package-files.json").include)
+  for (const path of read(entry.sourcePath + "/package-files.json", base)
+    .include)
     visit(path);
-  const manifest = read(entry.sourcePath + "/xenon-module.json");
+  const manifest = read(entry.sourcePath + "/xenon-module.json", base);
   if (manifest.id !== entry.id || !files.has("xenon-module.json"))
     throw Error("Package manifest identity mismatch");
   if (manifest.nativeExtension) {
@@ -64,11 +75,11 @@ export function packageIndex(entry) {
     files: rows,
   };
 }
-export function sync(check = false) {
-  for (const path of read("catalog.json").modules) {
-    const entry = read(path),
-      output = resolve(root, entry.sourcePath, "package.json");
-    const expected = JSON.stringify(packageIndex(entry), null, 2) + "\n";
+export function sync(check = false, base = root) {
+  for (const path of read("catalog.json", base).modules) {
+    const entry = read(path, base),
+      output = resolve(base, entry.sourcePath, "package.json");
+    const expected = JSON.stringify(packageIndex(entry, base), null, 2) + "\n";
     if (check) {
       if (readFileSync(output, "utf8") !== expected)
         throw Error(

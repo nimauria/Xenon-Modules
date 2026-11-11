@@ -1,0 +1,10 @@
+{
+  "schema": "project-gears-2.hooks",
+  "version": 1,
+  "revision": "gow2-eur-retail-51d281be",
+  "notes": [
+    "Instruction hooks run game-specific C++ (hooks/*.cpp, bool symbol(xenon::cpu::ExecutionContext&) or void) at a guest address. onTrue/onFalse: continue (default), return, or jump with jumpAddressOnTrue/jumpAddressOnFalse.",
+    "Only genuine Gears 2 game logic belongs here; missing Xbox behaviour is fixed in Xenon."
+  ],
+  "hooks": []
+}

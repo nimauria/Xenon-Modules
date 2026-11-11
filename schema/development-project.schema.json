@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Xenon game development project",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "version",
+    "id",
+    "payloadPath",
+    "files",
+    "preparationFiles"
+  ],
+  "properties": {
+    "schema": { "const": "xenon.development-project" },
+    "version": { "const": 1 },
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)+$" },
+    "payloadPath": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "string",
+          "pattern": "^games/[a-z0-9][a-z0-9-]*/[a-z0-9][a-z0-9._-]*$"
+        }
+      ]
+    },
+    "files": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1, "maxLength": 240 }
+    },
+    "preparationFiles": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1, "maxLength": 240 }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "generatedImportManifest": "generated/ac6-us/imports.cpp",
+  "sourceExecutable": "C:/Users/Elean/Documents/Development/AC6-Extracted/default.xex",
+  "generatedImportRecords": 468,
+  "uniqueXboxkrnlOrdinals": 151,
+  "memoryAndConfigImports": [
+    {"name": "ExAllocatePool", "ordinal": 9, "imported": true, "xenonStatus": "missing"},
+    {"name": "ExAllocatePoolWithTag", "ordinal": 10, "imported": false, "xenonStatus": "missing"},
+    {"name": "ExAllocatePoolTypeWithTag", "ordinal": 11, "imported": false, "xenonStatus": "missing"},
+    {"name": "ExFreePool", "ordinal": 15, "imported": true, "xenonStatus": "missing"},
+    {"name": "ExGetXConfigSetting", "ordinal": 16, "imported": true, "xenonStatus": "implemented"},
+    {"name": "MmAllocatePhysicalMemory", "ordinal": 185, "imported": false, "xenonStatus": "missing"},
+    {"name": "MmAllocatePhysicalMemoryEx", "ordinal": 186, "imported": true, "xenonStatus": "implemented"},
+    {"name": "MmFreePhysicalMemory", "ordinal": 189, "imported": true, "xenonStatus": "implemented"},
+    {"name": "MmGetPhysicalAddress", "ordinal": 190, "imported": true, "xenonStatus": "implemented"},
+    {"name": "MmQueryAddressProtect", "ordinal": 196, "imported": true, "xenonStatus": "implemented"},
+    {"name": "MmQueryAllocationSize", "ordinal": 197, "imported": false, "xenonStatus": "implemented"},
+    {"name": "MmQueryStatistics", "ordinal": 198, "imported": true, "xenonStatus": "partial"},
+    {"name": "MmSetAddressProtect", "ordinal": 199, "imported": true, "xenonStatus": "implemented"},
+    {"name": "NtAllocateVirtualMemory", "ordinal": 204, "imported": true, "xenonStatus": "implemented"},
+    {"name": "NtFreeVirtualMemory", "ordinal": 220, "imported": true, "xenonStatus": "missing"},
+    {"name": "NtProtectVirtualMemory", "ordinal": 225, "imported": false, "xenonStatus": "missing"},
+    {"name": "NtQueryVirtualMemory", "ordinal": 238, "imported": true, "xenonStatus": "missing"}
+  ]
+}

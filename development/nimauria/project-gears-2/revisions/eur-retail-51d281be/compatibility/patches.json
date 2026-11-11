@@ -1,0 +1,8 @@
+{
+  "schema": "project-gears-2.patch-metadata",
+  "version": 1,
+  "revision": "gow2-eur-retail-51d281be",
+  "patches": [],
+  "enhancements": [],
+  "policy": "Xbox semantics belong in Xenon. A patch or hook is added here only for genuine Gears 2 game logic, with its source (COGBox note, trace or disassembly) recorded on the entry."
+}

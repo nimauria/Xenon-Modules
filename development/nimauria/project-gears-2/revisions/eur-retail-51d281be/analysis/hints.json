@@ -1,0 +1,14 @@
+{
+  "schema": "project-gears-2.analysis-hints",
+  "version": 1,
+  "revision": "gow2-eur-retail-51d281be",
+  "notes": [
+    "Addresses are guest virtual addresses as hex strings. Every entry records where it came from in 'source'.",
+    "Function hints: 'end' (exclusive) or 'size' when automatic discovery bounds a function wrongly; flags are NoReturn, Leaf, Thunk."
+  ],
+  "functions": [],
+  "chunks": [],
+  "indirectCalls": [],
+  "runtimeHelpers": [],
+  "nativeReplacements": []
+}

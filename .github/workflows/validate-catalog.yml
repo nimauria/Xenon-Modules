@@ -23,5 +23,15 @@ jobs:
           check-jsonschema --schemafile schema/catalog.schema.json catalog.json
           check-jsonschema --schemafile schema/module-entry.schema.json games/*/*/entry.json
           check-jsonschema --schemafile schema/package.schema.json games/*/*/package.json
+          check-jsonschema --schemafile schema/development-project.schema.json development/*/*/project.json
+          check-jsonschema --schemafile schema/artwork.schema.json games/*/*/artwork.json
       - name: Validate folders and package indexes
         run: node scripts/validate-catalog.mjs
+
+      - name: Test workspace tools and ignore boundaries
+        run: node --test tests/workspace.test.mjs
+      - name: Check project metadata
+        run: |
+          python development/nimauria/project-gracemeria/tools/validate_metadata.py
+          python development/nimauria/project-gears-2/tools/validate_metadata.py
+          python development/nimauria/project-gears-2/tools/export_xenon_analysis.py --check
